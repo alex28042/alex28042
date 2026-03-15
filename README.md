@@ -50,7 +50,7 @@ Payment systems and financial infrastructure for one of Europe's largest banks
 </td>
 <td>
 
-**Freelance @ AlherTech** — `Offchain Backend Engineer`
+**Freelance** — `Offchain Backend Engineer`
 
 Offchain infrastructure for blockchain protocols. Bridging backend systems with on-chain smart contracts. Open-source tooling and developer SDKs
 
