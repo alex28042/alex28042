@@ -7,7 +7,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A371F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Freelance+%E2%86%92+BBVA+Technology+%E2%86%92+NTT+DATA;Blockchain+%C2%B7+Payments+%C2%B7+Enterprise" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A371F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=AlherTech+%E2%86%92+BBVA+Technology+%E2%86%92+NTT+DATA;Blockchain+%C2%B7+Payments+%C2%B7+Enterprise" />
 
 </div>
 
