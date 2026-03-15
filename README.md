@@ -15,14 +15,50 @@
 
 ### Career
 
-**NTT DATA** — Backend Software Engineer
-> Java microservices, REST APIs, enterprise integrations
+<table>
+<tr>
+<td width="80" align="center">
+<img src="https://img.shields.io/badge/1-6e40c9?style=for-the-badge&logoColor=white" />
+</td>
+<td>
 
-**BBVA Technology** — Backend Engineer, Payments
-> High-throughput payment infrastructure for one of Europe's largest banks
+**NTT DATA** — `Backend Software Engineer`
 
-**Wonderland** — Offchain Backend Engineer, Blockchain
-> Bridging traditional backend systems with on-chain smart contracts
+Java microservices, REST APIs, enterprise system integrations at scale
+
+`Java` `Spring Boot` `Microservices` `REST`
+
+</td>
+</tr>
+<tr>
+<td width="80" align="center">
+<img src="https://img.shields.io/badge/2-8957e5?style=for-the-badge&logoColor=white" />
+</td>
+<td>
+
+**BBVA Technology** — `Backend Engineer, Payments`
+
+Payment systems and financial infrastructure for one of Europe's largest banks
+
+`Java` `Kafka` `High Availability` `Fintech`
+
+</td>
+</tr>
+<tr>
+<td width="80" align="center">
+<img src="https://img.shields.io/badge/3-a371f7?style=for-the-badge&logoColor=white" />
+</td>
+<td>
+
+**Wonderland** — `Offchain Backend Engineer`
+
+Offchain infrastructure for blockchain protocols. Bridging backend systems with on-chain smart contracts
+
+`TypeScript` `Web3` `Solidity` `Blockchain`
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -30,15 +66,27 @@
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-6e40c9?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-8957e5?style=for-the-badge&logo=javascript&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-8957e5?style=for-the-badge&logo=kotlin&logoColor=white)
-![Python](https://img.shields.io/badge/Python-a371f7?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-a371f7?style=for-the-badge&logo=rust&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-d2a8ff?style=for-the-badge&logo=swift&logoColor=black)
-![Dart](https://img.shields.io/badge/Dart-d2a8ff?style=for-the-badge&logo=dart&logoColor=black)
-![Solidity](https://img.shields.io/badge/Solidity-d2a8ff?style=for-the-badge&logo=solidity&logoColor=black)
+```
+TypeScript   ████████████████████████████████████████  ■■  Primary
+Java         █████████████████████████░░░░░░░░░░░░░░░  ■■  Strong
+JavaScript   ████████████████████░░░░░░░░░░░░░░░░░░░░  ■■  Proficient
+Kotlin       ██████████████████░░░░░░░░░░░░░░░░░░░░░░  ■□  Proficient
+Python       ████████████████░░░░░░░░░░░░░░░░░░░░░░░░  ■□  Comfortable
+Rust         ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  □□  Exploring
+Swift        ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  □□  Exploring
+Dart         ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  □□  Exploring
+Solidity     ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  □□  Exploring
+```
+
+![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=flat-square&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-6e40c9?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-8957e5?style=flat-square&logo=javascript&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-8957e5?style=flat-square&logo=kotlin&logoColor=white)
+![Python](https://img.shields.io/badge/Python-a371f7?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-a371f7?style=flat-square&logo=rust&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-d2a8ff?style=flat-square&logo=swift&logoColor=black)
+![Dart](https://img.shields.io/badge/Dart-d2a8ff?style=flat-square&logo=dart&logoColor=black)
+![Solidity](https://img.shields.io/badge/Solidity-d2a8ff?style=flat-square&logo=solidity&logoColor=black)
 
 </div>
 
