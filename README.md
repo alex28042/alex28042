@@ -67,26 +67,27 @@ Java microservices, REST APIs, enterprise system integrations at scale
 <div align="center">
 
 ```
-TypeScript   ████████████████████████████████████████  ■■  Primary
-Java         █████████████████████████░░░░░░░░░░░░░░░  ■■  Strong
-JavaScript   ████████████████████░░░░░░░░░░░░░░░░░░░░  ■■  Proficient
-Kotlin       ██████████████████░░░░░░░░░░░░░░░░░░░░░░  ■□  Proficient
-Python       ████████████████░░░░░░░░░░░░░░░░░░░░░░░░  ■□  Comfortable
-Rust         ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  □□  Exploring
-Swift        ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  □□  Exploring
-Dart         ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  □□  Exploring
-Solidity     ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  □□  Exploring
+ TypeScript   ████████████████████████████████████████  210.5K lines   ██
+ Java         ████████████████░░░░░░░░░░░░░░░░░░░░░░░░   87.2K lines   ██
+ Python       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   14.8K lines   ██
+ JavaScript   █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   11.7K lines   ██
+ Kotlin       █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.8K lines   █░
+ Dart         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.0K lines   █░
+ Swift        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.5K lines   ░░
+ Rust         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░      842 lines   ░░
+ ─────────────────────────────────────────────────────────────────────
+ Total                                                  333.3K lines
 ```
 
-![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-6e40c9?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-8957e5?style=flat-square&logo=javascript&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-8957e5?style=flat-square&logo=kotlin&logoColor=white)
-![Python](https://img.shields.io/badge/Python-a371f7?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-a371f7?style=flat-square&logo=rust&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-d2a8ff?style=flat-square&logo=swift&logoColor=black)
-![Dart](https://img.shields.io/badge/Dart-d2a8ff?style=flat-square&logo=dart&logoColor=black)
-![Solidity](https://img.shields.io/badge/Solidity-d2a8ff?style=flat-square&logo=solidity&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-6e40c9?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-8957e5?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-8957e5?style=for-the-badge&logo=javascript&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-a371f7?style=for-the-badge&logo=kotlin&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-a371f7?style=for-the-badge&logo=dart&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-d2a8ff?style=for-the-badge&logo=swift&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-d2a8ff?style=for-the-badge&logo=rust&logoColor=black)
+![Solidity](https://img.shields.io/badge/Solidity-d2a8ff?style=for-the-badge&logo=solidity&logoColor=black)
 
 </div>
 
