@@ -115,31 +115,6 @@ Solidity     ██████░░░░░░░░░░░░░░░░�
 
 ---
 
-### Open source
-
-| Project | Description | Stack |
-|---------|------------|-------|
-| [**docscraper-ai**](https://github.com/alex28042/docscraper-ai) | Documentation scraper for AI agents. SOLID, DI, 155+ tests, published to NPM | TypeScript, Zod |
-| [**items-infrastructure-ts**](https://github.com/alex28042/items-infrastructure-ts) | REST API with multi-DB support, event streaming, and full IaC | Bun, Kafka, Terraform |
-| [**fast-zip**](https://github.com/alex28042/fast-zip) | Ultra-fast parallel ZIP compressor/extractor | Rust |
-| [**kafka-ddd-k8s-e2e**](https://github.com/alex28042/kafka-ddd-k8s-e2e) | DDD microservices with Kafka on Kubernetes | Java, K8s |
-| [**Microservices-EDA-SendToYou**](https://github.com/alex28042/Microservices-EDA-SendToYou) | Event-driven microservices architecture | Java, Spring Boot |
-| [**HexagonalArchitecture-SpringBoot**](https://github.com/alex28042/HexagonalArchitecture-SpringBoot) | Hexagonal architecture reference implementation | Java, Spring Boot |
-| [**terraform-s3-cloudfront**](https://github.com/alex28042/terraform-s3-cloudfront) | One-command S3 + CloudFront deploy on AWS | Terraform, Shell |
-| [**Swap-toon**](https://github.com/alex28042/Swap-toon) | Decentralized token swap interface | TypeScript, Web3 |
-| [**trading-bot-rsi**](https://github.com/alex28042/trading-bot-rsi) | Automated RSI-based trading bot | Python |
-| [**gemini-gen-ai-implementation**](https://github.com/alex28042/gemini-gen-ai-implementation) | Google Gemini AI integration | TypeScript |
-
-<div align="center">
-
-```bash
-npm install docscraper-ai
-```
-
-</div>
-
----
-
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=alex28042&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=a371f7&text_color=8b949e&ring_color=6e40c9" height="160" />
