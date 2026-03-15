@@ -7,7 +7,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A371F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=NTT+DATA+%E2%86%92+BBVA+Technology+%E2%86%92+Wonderland;Enterprise+%C2%B7+Payments+%C2%B7+Blockchain" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A371F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=NTT+DATA+%E2%86%92+BBVA+Technology+%E2%86%92+Freelance;Enterprise+%C2%B7+Payments+%C2%B7+Blockchain" />
 
 </div>
 
@@ -50,11 +50,11 @@ Payment systems and financial infrastructure for one of Europe's largest banks
 </td>
 <td>
 
-**Wonderland** — `Offchain Backend Engineer`
+**Freelance @ AlherTech** — `Offchain Backend Engineer`
 
-Offchain infrastructure for blockchain protocols. Bridging backend systems with on-chain smart contracts
+Offchain infrastructure for blockchain protocols. Bridging backend systems with on-chain smart contracts. Open-source tooling and developer SDKs
 
-`TypeScript` `Web3` `Solidity` `Blockchain`
+`TypeScript` `Web3` `Solidity` `Blockchain` `Node.js`
 
 </td>
 </tr>
