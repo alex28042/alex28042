@@ -7,7 +7,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A371F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=NTT+DATA+%E2%86%92+BBVA+Technology+%E2%86%92+Freelance;Enterprise+%C2%B7+Payments+%C2%B7+Blockchain" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A371F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Freelance+%E2%86%92+BBVA+Technology+%E2%86%92+NTT+DATA;Blockchain+%C2%B7+Payments+%C2%B7+Enterprise" />
 
 </div>
 
@@ -22,11 +22,11 @@
 </td>
 <td>
 
-**NTT DATA** — `Backend Software Engineer`
+**Freelance** — `Offchain Backend Engineer`
 
-Java microservices, REST APIs, enterprise system integrations at scale
+Offchain infrastructure for blockchain protocols. Bridging backend systems with on-chain smart contracts. Open-source tooling and developer SDKs
 
-`Java` `Spring Boot` `Microservices` `REST`
+`TypeScript` `Web3` `Solidity` `Blockchain` `Node.js`
 
 </td>
 </tr>
@@ -50,11 +50,11 @@ Payment systems and financial infrastructure for one of Europe's largest banks
 </td>
 <td>
 
-**Freelance** — `Offchain Backend Engineer`
+**NTT DATA** — `Backend Software Engineer`
 
-Offchain infrastructure for blockchain protocols. Bridging backend systems with on-chain smart contracts. Open-source tooling and developer SDKs
+Java microservices, REST APIs, enterprise system integrations at scale
 
-`TypeScript` `Web3` `Solidity` `Blockchain` `Node.js`
+`Java` `Spring Boot` `Microservices` `REST`
 
 </td>
 </tr>
