@@ -39,23 +39,66 @@ DARK_TEXT = {"Swift", "Dart", "Solidity"}
 
 
 def get_all_repos():
+    """Get all repos: owned + collaborator/org member."""
+    own_repos = set()
+    contrib_repos = set()
+
+    # Own repos (public + private)
     result = subprocess.run(
         ["gh", "api", "user/repos", "--paginate",
-         "-q", '[.[] | select(.fork == false and .owner.login == "' + GITHUB_USER + '")] | .[].name'],
+         "-q", '[.[] | select(.fork == false and .owner.login == "' + GITHUB_USER + '")] | .[].full_name'],
         capture_output=True, text=True
     )
-    return [r for r in result.stdout.strip().split("\n") if r]
+    for r in result.stdout.strip().split("\n"):
+        if r:
+            own_repos.add(r)
 
-
-def get_repo_languages(repo):
+    # Repos where user is collaborator or org member
     result = subprocess.run(
-        ["gh", "api", f"repos/{GITHUB_USER}/{repo}/languages"],
+        ["gh", "api", f"users/{GITHUB_USER}/repos?type=all&affiliation=collaborator,organization_member",
+         "--paginate", "-q", '[.[] | select(.fork == false)] | .[].full_name'],
+        capture_output=True, text=True
+    )
+    for r in result.stdout.strip().split("\n"):
+        if r and r not in own_repos:
+            contrib_repos.add(r)
+
+    return own_repos, contrib_repos
+
+
+def get_repo_languages(repo_full_name):
+    result = subprocess.run(
+        ["gh", "api", f"repos/{repo_full_name}/languages"],
         capture_output=True, text=True
     )
     try:
         return json.loads(result.stdout)
     except json.JSONDecodeError:
         return {}
+
+
+def get_contribution_ratio(repo_full_name):
+    """Get the ratio of lines contributed by GITHUB_USER in a repo."""
+    result = subprocess.run(
+        ["gh", "api", f"repos/{repo_full_name}/stats/contributors"],
+        capture_output=True, text=True
+    )
+    try:
+        contributors = json.loads(result.stdout)
+        if not isinstance(contributors, list):
+            return 0.0
+        total_additions = 0
+        user_additions = 0
+        for c in contributors:
+            additions = sum(w.get("a", 0) for w in c.get("weeks", []))
+            total_additions += additions
+            if c.get("author", {}).get("login", "").lower() == GITHUB_USER.lower():
+                user_additions = additions
+        if total_additions == 0:
+            return 0.0
+        return user_additions / total_additions
+    except (json.JSONDecodeError, TypeError):
+        return 0.0
 
 
 def build_bar(ratio, width):
@@ -79,14 +122,27 @@ def build_level(lines):
 
 
 def main():
-    repos = get_all_repos()
+    own_repos, contrib_repos = get_all_repos()
     totals = {}
 
-    for repo in repos:
+    # Own repos: count everything
+    for repo in own_repos:
         langs = get_repo_languages(repo)
         for lang, bytes_count in langs.items():
             if lang in LANGUAGES:
                 totals[lang] = totals.get(lang, 0) + bytes_count
+
+    # Contributor repos: count only user's contribution ratio
+    for repo in contrib_repos:
+        ratio = get_contribution_ratio(repo)
+        if ratio <= 0:
+            continue
+        langs = get_repo_languages(repo)
+        for lang, bytes_count in langs.items():
+            if lang in LANGUAGES:
+                totals[lang] = totals.get(lang, 0) + int(bytes_count * ratio)
+
+    repos = own_repos | contrib_repos
 
     sorted_langs = sorted(
         [(lang, totals.get(lang, 0)) for lang in LANGUAGES],
