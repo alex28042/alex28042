@@ -67,16 +67,16 @@ Java microservices, REST APIs, enterprise system integrations at scale
 <div align="center">
 
 ```
- TypeScript   ████████████████████████████████████████ 1074.0K lines   ██
- Java         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 114.7K lines   ██
- Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  66.5K lines   ██
+ TypeScript   ████████████████████████████████████████ 1078.5K lines   ██
+ Java         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 109.6K lines   ██
+ Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  67.0K lines   ██
  Swift        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  37.0K lines   █░
- JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  24.4K lines   █░
+ JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  25.7K lines   █░
  Kotlin       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.8K lines   █░
  Dart         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0K lines   ░░
  Rust         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    842 lines   ░░
  ─────────────────────────────────────────────────────────────────
- Total                                                1324.1K lines
+ Total                                                1325.4K lines
 ```
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
