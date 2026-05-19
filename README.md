@@ -112,22 +112,3 @@ Java microservices, REST APIs, enterprise system integrations at scale
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
 
 </div>
-
----
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=alex28042&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=a371f7&text_color=8b949e&ring_color=6e40c9" height="160" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alex28042&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&text_color=8b949e&langs_count=8" height="160" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=alex28042&theme=github-dark-blue&hide_border=true&background=0d1117&ring=6e40c9&fire=a371f7&currStreakLabel=a371f7&sideLabels=8b949e&dates=8b949e" width="500" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=alex28042&theme=discord&no-frame=true&no-bg=true&column=6&margin-w=10" width="600" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:a371f7&height=100&section=footer" width="100%" />
