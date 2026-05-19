@@ -22,7 +22,7 @@
 </td>
 <td>
 
-**Freelance** — `Offchain Backend Engineer`
+**Wonderland** — `Offchain Backend Engineer`
 
 Offchain infrastructure for blockchain protocols. Bridging backend systems with on-chain smart contracts. Open-source tooling and developer SDKs
 
