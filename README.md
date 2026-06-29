@@ -67,8 +67,8 @@ Java microservices, REST APIs, enterprise system integrations at scale
 <div align="center">
 
 ```
- TypeScript   ████████████████████████████████████████ 1160.1K lines   ██
- Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 168.1K lines   ██
+ TypeScript   ████████████████████████████████████████ 1160.6K lines   ██
+ Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 171.1K lines   ██
  Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  69.9K lines   ██
  Swift        ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  46.4K lines   █░
  JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  30.5K lines   █░
@@ -76,7 +76,7 @@ Java microservices, REST APIs, enterprise system integrations at scale
  Rust         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.6K lines   █░
  Dart         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0K lines   ░░
  ─────────────────────────────────────────────────────────────────
- Total                                                1485.4K lines
+ Total                                                1488.9K lines
 ```
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
