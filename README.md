@@ -67,8 +67,8 @@ Java microservices, REST APIs, enterprise system integrations at scale
 <div align="center">
 
 ```
- TypeScript   ████████████████████████████████████████ 1160.6K lines   ██
- Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 171.1K lines   ██
+ TypeScript   ████████████████████████████████████████ 1161.0K lines   ██
+ Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 169.5K lines   ██
  Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  69.9K lines   ██
  Swift        ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  46.4K lines   █░
  JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  30.5K lines   █░
@@ -76,7 +76,7 @@ Java microservices, REST APIs, enterprise system integrations at scale
  Rust         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.6K lines   █░
  Dart         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0K lines   ░░
  ─────────────────────────────────────────────────────────────────
- Total                                                1488.9K lines
+ Total                                                1487.7K lines
 ```
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
@@ -87,6 +87,29 @@ Java microservices, REST APIs, enterprise system integrations at scale
 ![Kotlin](https://img.shields.io/badge/Kotlin-a371f7?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-d2a8ff?style=for-the-badge&logo=rust&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-a371f7?style=for-the-badge&logo=dart&logoColor=black)
+
+</div>
+
+---
+
+### Activity
+
+<div align="center">
+
+```
+ 2020         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     32 commits
+ 2021         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░      0 commits
+ 2022         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     64 commits
+ 2023         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    398 commits
+ 2024         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    413 commits
+ 2025         ███████████████████████████████████████░   3.6K commits
+ 2026         ████████████████████████████████████████   3.7K commits
+ ─────────────────────────────────────────────────────────────────
+ Total                                                   8.2K commits
+```
+
+![Commits](https://img.shields.io/badge/Commits-8.2K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
+![Repositories](https://img.shields.io/badge/Repositories-85-8957e5?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
