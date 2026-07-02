@@ -1,4 +1,4 @@
-name: Update README Languages
+name: Update README Stats
 
 on:
   schedule:
@@ -27,8 +27,13 @@ jobs:
           GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
         run: python scripts/update-languages.py
 
+      - name: Update activity section
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: python scripts/update-commits.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet README.md || (git add README.md && git commit -m "chore: update language stats" && git push)
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: update stats" && git push)

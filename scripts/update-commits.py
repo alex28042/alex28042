@@ -2,13 +2,14 @@
 """Counts commits authored by the user across all repos (private included)
 and updates the Activity section in README.md."""
 
+import datetime
 import json
 import re
 import subprocess
 
 GITHUB_USER = "alex28042"
 FIRST_YEAR = 2020
-CURRENT_YEAR = 2026
+CURRENT_YEAR = datetime.date.today().year
 BAR_WIDTH = 40
 REPOS_PER_QUERY = 10
 
