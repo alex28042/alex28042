@@ -67,17 +67,16 @@ Java microservices, REST APIs, enterprise system integrations at scale
 <div align="center">
 
 ```
- TypeScript   ████████████████████████████████████████ 1265.5K lines   ██
- Java         ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 224.1K lines   ██
+ TypeScript   ████████████████████████████████████████ 1311.9K lines   ██
+ Java         ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 229.0K lines   ██
  Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  70.0K lines   ██
  Swift        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  46.8K lines   █░
- JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  31.6K lines   █░
+ JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  32.3K lines   █░
+ Rust         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  11.3K lines   █░
  Kotlin       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.8K lines   █░
- Rust         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.6K lines   █░
  Dart         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0K lines   ░░
- Solidity     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.3K lines   ░░
  ─────────────────────────────────────────────────────────────────
- Total                                                1650.7K lines
+ Total                                                1708.1K lines
 ```
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
@@ -85,10 +84,9 @@ Java microservices, REST APIs, enterprise system integrations at scale
 ![Python](https://img.shields.io/badge/Python-8957e5?style=for-the-badge&logo=python&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-d2a8ff?style=for-the-badge&logo=swift&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-8957e5?style=for-the-badge&logo=javascript&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-a371f7?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-d2a8ff?style=for-the-badge&logo=rust&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-a371f7?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-a371f7?style=for-the-badge&logo=dart&logoColor=black)
-![Solidity](https://img.shields.io/badge/Solidity-d2a8ff?style=for-the-badge&logo=solidity&logoColor=black)
 
 </div>
 
@@ -105,12 +103,12 @@ Java microservices, REST APIs, enterprise system integrations at scale
  2023         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    398 commits
  2024         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    413 commits
  2025         ████████████████████████████████████████   3.6K commits
- 2026         ████████████████████████████████░░░░░░░░   2.9K commits
+ 2026         ████████████████████████████████████░░░░   3.3K commits
  ─────────────────────────────────────────────────────────────────
- Total                                                   7.5K commits
+ Total                                                   7.8K commits
 ```
 
-![Commits](https://img.shields.io/badge/Commits-7.5K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
+![Commits](https://img.shields.io/badge/Commits-7.8K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
 ![Repositories](https://img.shields.io/badge/Repositories-88-8957e5?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
