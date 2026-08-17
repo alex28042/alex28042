@@ -67,16 +67,16 @@ Java microservices, REST APIs, enterprise system integrations at scale
 <div align="center">
 
 ```
- TypeScript   ████████████████████████████████████████ 1497.6K lines   ██
- Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 232.1K lines   ██
- Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  70.0K lines   ██
+ TypeScript   ████████████████████████████████████████ 1520.8K lines   ██
+ Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 241.0K lines   ██
+ Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  70.3K lines   ██
  Swift        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  37.4K lines   █░
- JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  31.4K lines   █░
- Rust         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  19.8K lines   █░
+ JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  31.7K lines   █░
+ Rust         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  27.2K lines   █░
  Kotlin       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.8K lines   █░
  Dart         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0K lines   ░░
  ─────────────────────────────────────────────────────────────────
- Total                                                1895.1K lines
+ Total                                                1935.2K lines
 ```
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
@@ -103,13 +103,13 @@ Java microservices, REST APIs, enterprise system integrations at scale
  2023         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    398 commits
  2024         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    413 commits
  2025         ████████████████████████████████████████   3.6K commits
- 2026         ███████████████████████████████████████░   3.5K commits
+ 2026         ███████████████████████████████████████░   3.6K commits
  ─────────────────────────────────────────────────────────────────
  Total                                                   8.1K commits
 ```
 
 ![Commits](https://img.shields.io/badge/Commits-8.1K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
-![Repositories](https://img.shields.io/badge/Repositories-89-8957e5?style=for-the-badge&logo=github&logoColor=white)
+![Repositories](https://img.shields.io/badge/Repositories-90-8957e5?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
