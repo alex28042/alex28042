@@ -67,16 +67,16 @@ Java microservices, REST APIs, enterprise system integrations at scale
 <div align="center">
 
 ```
- TypeScript   ████████████████████████████████████████ 1583.0K lines   ██
- Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 248.6K lines   ██
- Rust         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 150.1K lines   ██
+ TypeScript   ████████████████████████████████████████ 1660.9K lines   ██
+ Java         ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 272.0K lines   ██
+ Rust         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 144.4K lines   ██
  Swift        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 122.8K lines   ██
- Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  97.9K lines   ██
- JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  35.9K lines   █░
+ Python       ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 103.9K lines   ██
+ JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  36.4K lines   █░
  Kotlin       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.8K lines   █░
  Dart         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0K lines   ░░
  ─────────────────────────────────────────────────────────────────
- Total                                                2245.0K lines
+ Total                                                2347.3K lines
 ```
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
@@ -99,17 +99,17 @@ Java microservices, REST APIs, enterprise system integrations at scale
 ```
  2020         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     32 commits
  2021         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░      0 commits
- 2022         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     64 commits
+ 2022         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     64 commits
  2023         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    398 commits
  2024         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    413 commits
- 2025         ███████████████████████████████░░░░░░░░░   3.6K commits
- 2026         ████████████████████████████████████████   4.8K commits
+ 2025         ███████████████████████████░░░░░░░░░░░░░   3.6K commits
+ 2026         ████████████████████████████████████████   5.4K commits
  ─────────────────────────────────────────────────────────────────
- Total                                                   9.3K commits
+ Total                                                  10.0K commits
 ```
 
-![Commits](https://img.shields.io/badge/Commits-9.3K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
-![Repositories](https://img.shields.io/badge/Repositories-97-8957e5?style=for-the-badge&logo=github&logoColor=white)
+![Commits](https://img.shields.io/badge/Commits-10.0K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
+![Repositories](https://img.shields.io/badge/Repositories-96-8957e5?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
