@@ -67,22 +67,22 @@ Java microservices, REST APIs, enterprise system integrations at scale
 <div align="center">
 
 ```
- TypeScript   ████████████████████████████████████████ 1685.8K lines   ██
- Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 236.7K lines   ██
- Rust         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 144.4K lines   ██
- Swift        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 122.8K lines   ██
- Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 104.0K lines   ██
+ TypeScript   ████████████████████████████████████████ 1770.6K lines   ██
+ Java         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 236.4K lines   ██
+ Swift        █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 202.1K lines   ██
+ Rust         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 150.7K lines   ██
+ Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 104.4K lines   ██
  JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  36.2K lines   █░
  Kotlin       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.8K lines   █░
  Dart         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0K lines   ░░
  ─────────────────────────────────────────────────────────────────
- Total                                                2336.7K lines
+ Total                                                2507.2K lines
 ```
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-6e40c9?style=for-the-badge&logo=openjdk&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-d2a8ff?style=for-the-badge&logo=rust&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-d2a8ff?style=for-the-badge&logo=swift&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-d2a8ff?style=for-the-badge&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-8957e5?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-8957e5?style=for-the-badge&logo=javascript&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-a371f7?style=for-the-badge&logo=kotlin&logoColor=white)
@@ -103,13 +103,13 @@ Java microservices, REST APIs, enterprise system integrations at scale
  2023         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    398 commits
  2024         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    413 commits
  2025         ██████████████████████████░░░░░░░░░░░░░░   3.6K commits
- 2026         ████████████████████████████████████████   5.5K commits
+ 2026         ████████████████████████████████████████   5.7K commits
  ─────────────────────────────────────────────────────────────────
- Total                                                  10.1K commits
+ Total                                                  10.2K commits
 ```
 
-![Commits](https://img.shields.io/badge/Commits-10.1K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
-![Repositories](https://img.shields.io/badge/Repositories-100-8957e5?style=for-the-badge&logo=github&logoColor=white)
+![Commits](https://img.shields.io/badge/Commits-10.2K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
+![Repositories](https://img.shields.io/badge/Repositories-103-8957e5?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
