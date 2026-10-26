@@ -67,22 +67,22 @@ Java microservices, REST APIs, enterprise system integrations at scale
 <div align="center">
 
 ```
- TypeScript   ████████████████████████████████████████ 1770.6K lines   ██
- Java         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 236.4K lines   ██
- Swift        █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 202.1K lines   ██
- Rust         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 150.7K lines   ██
- Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 104.4K lines   ██
- JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  36.2K lines   █░
+ TypeScript   ████████████████████████████████████████ 1869.3K lines   ██
+ Java         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 244.1K lines   ██
+ Rust         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 168.0K lines   ██
+ Swift        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 139.7K lines   ██
+ Python       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 104.3K lines   ██
+ JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  36.1K lines   █░
  Kotlin       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.8K lines   █░
  Dart         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0K lines   ░░
  ─────────────────────────────────────────────────────────────────
- Total                                                2507.2K lines
+ Total                                                2568.3K lines
 ```
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-6e40c9?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-6e40c9?style=for-the-badge&logo=openjdk&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-d2a8ff?style=for-the-badge&logo=swift&logoColor=black)
 ![Rust](https://img.shields.io/badge/Rust-d2a8ff?style=for-the-badge&logo=rust&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-d2a8ff?style=for-the-badge&logo=swift&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-8957e5?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-8957e5?style=for-the-badge&logo=javascript&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-a371f7?style=for-the-badge&logo=kotlin&logoColor=white)
@@ -102,14 +102,14 @@ Java microservices, REST APIs, enterprise system integrations at scale
  2022         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     64 commits
  2023         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    398 commits
  2024         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    413 commits
- 2025         ██████████████████████████░░░░░░░░░░░░░░   3.6K commits
- 2026         ████████████████████████████████████████   5.7K commits
+ 2025         █████████████████████████░░░░░░░░░░░░░░░   3.6K commits
+ 2026         ████████████████████████████████████████   5.8K commits
  ─────────────────────────────────────────────────────────────────
- Total                                                  10.2K commits
+ Total                                                  10.3K commits
 ```
 
-![Commits](https://img.shields.io/badge/Commits-10.2K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
-![Repositories](https://img.shields.io/badge/Repositories-103-8957e5?style=for-the-badge&logo=github&logoColor=white)
+![Commits](https://img.shields.io/badge/Commits-10.3K-6e40c9?style=for-the-badge&logo=git&logoColor=white)
+![Repositories](https://img.shields.io/badge/Repositories-102-8957e5?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
