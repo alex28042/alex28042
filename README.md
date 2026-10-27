@@ -16,57 +16,25 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 <h3 align="center">Last 30 days with Claude Code</h3>
 
 <!-- claude-code:start -->
-### Shipping with Claude Code
-
 <div align="center">
 
-![Lines · last 30 days](https://img.shields.io/badge/Lines_%C2%B7_last_30_days-575.5K-6e40c9?style=for-the-badge&logo=claude&logoColor=white)
-![Since Aug 2026](https://img.shields.io/badge/Since_Aug_2026-2.14M_lines-8957e5?style=for-the-badge&logo=anthropic&logoColor=white)
-![Active days](https://img.shields.io/badge/Active_days-28%2F30-a371f7?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Streak-8_days-d2a8ff?style=for-the-badge)
+![Lines · 30 days](https://img.shields.io/badge/Lines_%C2%B7_30_days-575.5K-6e40c9?style=for-the-badge&logo=claude&logoColor=white)
+![Since Aug 2026](https://img.shields.io/badge/Since_Aug_2026-2.14M-8957e5?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Streak-8_days-a371f7?style=for-the-badge)
+![Main model](https://img.shields.io/badge/Main_model-Opus_5.5-d2a8ff?style=for-the-badge&logo=anthropic&logoColor=black)
 
-```
- Lines written per day · Sep 28 → Oct 27
+```text
+Sep 28 ▃▄▅▂▆▁▃▂▁▂▂█▄▁▃▃▄▂▂▃  ▂▂▁▄▄▄▂▄ Oct 27   peak 151.6K/day · 28 of 30 days active
 
- 151.6K │                       █
-        │                       █
-        │                       █
-        │         ▅             █
-        │     ▄   █             █ ▄                         ▄
-        │ ▆ ▇ █ ▂ █ ▁ ▅ ▂ ▁ ▁ ▁ █ █ ▁ ▃ ▆ ▇ ▂ ▃ ▄     ▁ ▁ ▁ █ ▇ █ ▂ █
-      0 └─────────────────────────────────────────────────────────────
-```
-
-```
- Languages · last 30 days
-
- TypeScript   ████████████████████████████████████████ 331.3K lines   61.7%
- JavaScript   ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  56.2K lines   10.5%
- Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  53.5K lines   10.0%
- Python       █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  39.0K lines    7.3%
- Swift        ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.0K lines    2.6%
- HTML         ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  13.1K lines    2.4%
- Rust         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10.5K lines    2.0%
- CSS          █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6.4K lines    1.2%
- Other        ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  13.0K lines    2.4%
+LANGUAGES                       MODELS                       
+TypeScript ████████████   62%   Opus 5.5   ████████████   98%
+JavaScript ██░░░░░░░░░░   10%   Sonnet 5.5 ░░░░░░░░░░░░    1%
+Java       ██░░░░░░░░░░   10%   Haiku 4.5  ░░░░░░░░░░░░   <1%
+Python     █░░░░░░░░░░░    7%   Sonnet 5   ░░░░░░░░░░░░   <1%
+Swift      █░░░░░░░░░░░    3%   Haiku 5.5  ░░░░░░░░░░░░   <1%
 ```
 
-```
- Models · last 30 days
-
- Opus 5.5     ████████████████████████████████████████  69.1K calls   98.4%
- Sonnet 5.5   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    881 calls    1.3%
- Haiku 4.5    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    155 calls    0.2%
- Sonnet 5     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     77 calls    0.1%
- Haiku 5.5    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     39 calls    0.1%
-```
-
-![Main model](https://img.shields.io/badge/Main_model-Opus_5.5-6e40c9?style=flat-square&logo=claude&logoColor=white)
-![Sessions](https://img.shields.io/badge/Sessions-270-8957e5?style=flat-square)
-![Files touched](https://img.shields.io/badge/Files_touched-9.0K-a371f7?style=flat-square)
-![Output tokens](https://img.shields.io/badge/Output_tokens-60.39M-d2a8ff?style=flat-square&logo=anthropic&logoColor=black)
-
-<sub>Counted from my local Claude Code sessions: every line Claude writes to a file through Edit, Write or a heredoc. Rolling 30 days, refreshed every hour. Last update Oct 27, 2026.</sub>
+<sub>Every line Claude Code writes on my laptop · rolling 30 days · refreshed hourly · Oct 27, 2026</sub>
 
 </div>
 <!-- claude-code:end -->
