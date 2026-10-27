@@ -10,7 +10,6 @@ import subprocess
 GITHUB_USER = "alex28042"
 FIRST_YEAR = 2020
 CURRENT_YEAR = datetime.date.today().year
-BAR_WIDTH = 40
 REPOS_PER_QUERY = 10
 
 
@@ -84,39 +83,13 @@ def format_count(count):
     return str(count)
 
 
-def build_bar(ratio, width):
-    filled = round(ratio * width)
-    return "█" * filled + "░" * (width - filled)
-
-
-def build_chart(per_year, total):
-    max_commits = max(per_year.values()) or 1
-    lines = []
-    for year, count in sorted(per_year.items()):
-        bar = build_bar(count / max_commits, BAR_WIDTH)
-        count_str = format_count(count).rjust(6)
-        lines.append(f" {year}         {bar} {count_str} commits")
-    separator = " " + "─" * 65
-    lines.append(separator)
-    lines.append(f" Total{' ' * 49}{format_count(total).rjust(6)} commits")
-    return "```\n" + "\n".join(lines) + "\n```"
-
-
 def build_section(per_year, total, repo_count):
-    chart = build_chart(per_year, total)
-    badges = "\n".join([
-        f"![Commits](https://img.shields.io/badge/Commits-{format_count(total)}-6e40c9?style=for-the-badge&logo=git&logoColor=white)",
-        f"![Repositories](https://img.shields.io/badge/Repositories-{repo_count}-8957e5?style=for-the-badge&logo=github&logoColor=white)",
+    this_year = per_year.get(CURRENT_YEAR, 0)
+    return "\n".join([
+        f"![Commits](https://img.shields.io/badge/Commits-{format_count(total)}-6e40c9?style=flat-square&logo=git&logoColor=white)",
+        f"![{CURRENT_YEAR}](https://img.shields.io/badge/{CURRENT_YEAR}-{format_count(this_year)}_commits-8957e5?style=flat-square&logo=github&logoColor=white)",
+        f"![Repositories](https://img.shields.io/badge/Repositories-{repo_count}-a371f7?style=flat-square&logo=github&logoColor=white)",
     ])
-    return f"""### Activity · commits per year
-
-<div align="center">
-
-{chart}
-
-{badges}
-
-</div>"""
 
 
 def update_readme(section):

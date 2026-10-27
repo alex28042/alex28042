@@ -9,7 +9,7 @@ import math
 GITHUB_USER = "alex28042"
 BYTES_PER_LINE = 40
 LANGUAGES = ["TypeScript", "Java", "Python", "JavaScript", "Kotlin", "Dart", "Swift", "Rust", "Solidity"]
-BAR_WIDTH = 40
+TOP_LANGUAGES = 5
 
 BADGE_COLORS = {
     "TypeScript": "6e40c9",
@@ -101,24 +101,12 @@ def get_contribution_ratio(repo_full_name):
         return 0.0
 
 
-def build_bar(ratio, width):
-    filled = round(ratio * width)
-    return "\u2588" * filled + "\u2591" * (width - filled)
-
-
 def format_lines(lines):
+    if lines >= 1000000:
+        return f"{lines / 1000000:.2f}M"
     if lines >= 1000:
         return f"{lines / 1000:.1f}K"
     return str(lines)
-
-
-def build_level(lines):
-    if lines >= 50000:
-        return "\u2588\u2588"
-    elif lines >= 3000:
-        return "\u2588\u2591"
-    else:
-        return "\u2591\u2591"
 
 
 def main():
@@ -149,53 +137,24 @@ def main():
         key=lambda x: -x[1]
     )
 
-    max_bytes = sorted_langs[0][1] if sorted_langs else 1
     total_lines = sum(b // BYTES_PER_LINE for _, b in sorted_langs)
+    total_str = format_lines(total_lines)
 
-    # Build ASCII chart
-    lines = []
-    for lang, bytes_count in sorted_langs:
+    badges = []
+    for lang, bytes_count in sorted_langs[:TOP_LANGUAGES]:
         loc = bytes_count // BYTES_PER_LINE
         if loc == 0:
-            continue
-        ratio = bytes_count / max_bytes
-        bar = build_bar(ratio, BAR_WIDTH)
-        level = build_level(loc)
-        loc_str = format_lines(loc).rjust(6)
-        lines.append(f" {lang:<13}{bar} {loc_str} lines   {level}")
-
-    separator = " " + "\u2500" * 65
-    total_str = format_lines(total_lines)
-    lines.append(separator)
-    lines.append(f" Total{' ' * 48}{total_str.rjust(6)} lines")
-
-    chart = "```\n" + "\n".join(lines) + "\n```"
-
-    # Build badges
-    badges = []
-    for lang, _ in sorted_langs:
-        if totals.get(lang, 0) == 0:
             continue
         color = BADGE_COLORS[lang]
         logo = BADGE_LOGO[lang]
         text_color = "black" if lang in DARK_TEXT else "white"
         badges.append(
-            f"![{lang}](https://img.shields.io/badge/{lang}-{color}?style=for-the-badge&logo={logo}&logoColor={text_color})"
+            f"![{lang}](https://img.shields.io/badge/{lang}-{format_lines(loc)}_lines-{color}"
+            f"?style=flat-square&logo={logo}&logoColor={text_color})"
         )
 
-    badge_line = "\n".join(badges)
+    new_section = "\n".join(badges)
 
-    new_section = f"""### Languages · all repositories
-
-<div align="center">
-
-{chart}
-
-{badge_line}
-
-</div>"""
-
-    # Read and replace in README
     with open("README.md", "r") as f:
         readme = f.read()
 
