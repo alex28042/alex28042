@@ -19,11 +19,19 @@ class GitPublisher:
         self._branch = branch
         self._log = log
 
-    def sync(self) -> None:
+    def sync(self) -> bool:
         if not (self._clone_dir / ".git").exists():
             self._clone_dir.parent.mkdir(parents=True, exist_ok=True)
             self._run_outside("clone", "--branch", self._branch, self._remote_url, str(self._clone_dir))
-            return
+            return True
+        scripts_before = self._scripts_tree()
+        self._pull_or_reset()
+        return self._scripts_tree() != scripts_before
+
+    def _scripts_tree(self) -> str:
+        return self._git("rev-parse", "HEAD:scripts", check=False)
+
+    def _pull_or_reset(self) -> None:
         try:
             self._git("pull", "--rebase", "origin", self._branch)
         except GitCommandError as error:

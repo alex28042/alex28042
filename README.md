@@ -2,13 +2,13 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:a371f7&height=180&section=header&text=Alex%20Alonso&fontSize=44&fontColor=ffffff&fontAlignY=36&animation=twinkling" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1200&color=A371F7&center=true&vCenter=true&width=600&height=36&lines=Backend+engineer+%C2%B7+AlherTech;Java+25+%C2%B7+Spring+Boot+4+%C2%B7+TypeScript+%C2%B7+Rust;Shipping+every+day+with+Claude+Code" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1200&color=A371F7&center=true&vCenter=true&width=600&height=36&lines=Backend+engineer+%C2%B7+Getnet+%C2%B7+AlherTech;Java+25+%C2%B7+Spring+Boot+4+%C2%B7+TypeScript+%C2%B7+Rust;Shipping+every+day+with+Claude+Code" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6e40c9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/alex28042)
 [![AlherTech](https://img.shields.io/badge/alhertech.com-8957e5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://alhertech.com)
 [![NPM](https://img.shields.io/badge/NPM-a371f7?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~alex28042)
 
-Building products at **AlherTech**: APIs, apps and the infra underneath.<br/>
+Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps and the infra underneath.<br/>
 <sub>Previously Wonderland · BBVA Technology (Payments) · NTT DATA</sub>
 
 </div>
