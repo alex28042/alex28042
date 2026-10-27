@@ -26,7 +26,7 @@ Building products at **AlherTech**: APIs, apps and the infra underneath.<br/>
 ```text
 Sep 28 ▃▄▅▂▆▁▃▂▁▂▂█▄▁▃▃▄▂▂▃  ▂▂▁▄▄▄▂▄ Oct 27   peak 151.6K/day · 28 of 30 days active
 
-LANGUAGES                       MODELS
+LANGUAGES                       MODELS                       
 TypeScript ████████████   62%   Opus 5.5   ████████████   98%
 JavaScript ██░░░░░░░░░░   10%   Sonnet 5.5 ░░░░░░░░░░░░    1%
 Java       ██░░░░░░░░░░   10%   Haiku 4.5  ░░░░░░░░░░░░   <1%

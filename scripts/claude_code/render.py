@@ -67,8 +67,9 @@ class ClaudeCodeSectionRenderer:
         for index in range(max(len(languages), len(models))):
             left = share_cell(languages, index, LANGUAGE_COLUMN)
             right = share_cell(models, index, MODEL_COLUMN)
-            rows.append(f"{left}   {right}".rstrip())
-        return "\n".join(rows)
+            rows.append(f"{left}   {right}")
+        width = max(len(row) for row in rows)
+        return "\n".join(row.ljust(width) for row in rows)
 
 
 def shares(counts: list[tuple[str, int]], total: int) -> list[tuple[str, float, float]]:
