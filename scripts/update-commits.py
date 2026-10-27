@@ -108,7 +108,7 @@ def build_section(per_year, total, repo_count):
         f"![Commits](https://img.shields.io/badge/Commits-{format_count(total)}-6e40c9?style=for-the-badge&logo=git&logoColor=white)",
         f"![Repositories](https://img.shields.io/badge/Repositories-{repo_count}-8957e5?style=for-the-badge&logo=github&logoColor=white)",
     ])
-    return f"""### Activity
+    return f"""### Activity · commits per year
 
 <div align="center">
 
@@ -123,16 +123,8 @@ def update_readme(section):
     with open("README.md", "r") as f:
         readme = f.read()
 
-    pattern = r"### Activity.*?</div>"
-    if re.search(pattern, readme, flags=re.DOTALL):
-        readme = re.sub(pattern, section, readme, count=1, flags=re.DOTALL)
-    else:
-        # First run: insert right after the Languages section.
-        languages_pattern = r"(### Languages.*?</div>\n)"
-        readme = re.sub(
-            languages_pattern, r"\1\n---\n\n" + section + "\n",
-            readme, count=1, flags=re.DOTALL,
-        )
+    pattern = r"(<!-- activity:start -->\n).*?(<!-- activity:end -->)"
+    readme = re.sub(pattern, lambda m: m.group(1) + section + "\n" + m.group(2), readme, count=1, flags=re.DOTALL)
 
     with open("README.md", "w") as f:
         f.write(readme)
