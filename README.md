@@ -44,17 +44,17 @@ Swift      █░░░░░░░░░░░    3%   Haiku 5.5  ░░░░�
 <div align="center">
 
 <!-- activity:start -->
-![Commits](https://img.shields.io/badge/Commits-10.3K-6e40c9?style=flat-square&logo=git&logoColor=white)
-![2026](https://img.shields.io/badge/2026-5.8K_commits-8957e5?style=flat-square&logo=github&logoColor=white)
-![Repositories](https://img.shields.io/badge/Repositories-102-a371f7?style=flat-square&logo=github&logoColor=white)
+![Commits](https://img.shields.io/badge/Commits-10.4K-6e40c9?style=flat-square&logo=git&logoColor=white)
+![2026](https://img.shields.io/badge/2026-5.9K_commits-8957e5?style=flat-square&logo=github&logoColor=white)
+![Repositories](https://img.shields.io/badge/Repositories-104-a371f7?style=flat-square&logo=github&logoColor=white)
 <!-- activity:end -->
 
 <!-- languages:start -->
-![TypeScript](https://img.shields.io/badge/TypeScript-1.87M_lines-6e40c9?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-244.1K_lines-6e40c9?style=flat-square&logo=openjdk&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-168.0K_lines-d2a8ff?style=flat-square&logo=rust&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-1.88M_lines-6e40c9?style=flat-square&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-251.8K_lines-6e40c9?style=flat-square&logo=openjdk&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-168.0K_lines-d2a8ff?style=flat-square&logo=rust&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-139.7K_lines-d2a8ff?style=flat-square&logo=swift&logoColor=black)
-![Python](https://img.shields.io/badge/Python-104.3K_lines-8957e5?style=flat-square&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-105.2K_lines-8957e5?style=flat-square&logo=python&logoColor=white)
 <!-- languages:end -->
 
 </div>
