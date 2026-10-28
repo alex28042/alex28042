@@ -18,8 +18,8 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 <!-- claude-code:start -->
 <div align="center">
 
-![Lines · 30 days](https://img.shields.io/badge/Lines_%C2%B7_30_days-569.0K-6e40c9?style=for-the-badge&logo=claude&logoColor=white)
-![Since Aug 2026](https://img.shields.io/badge/Since_Aug_2026-2.15M-8957e5?style=for-the-badge)
+![Lines · 30 days](https://img.shields.io/badge/Lines_%C2%B7_30_days-569.7K-6e40c9?style=for-the-badge&logo=claude&logoColor=white)
+![Since Aug 2026](https://img.shields.io/badge/Since_Aug_2026-2.16M-8957e5?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-9_days-a371f7?style=for-the-badge)
 ![Main model](https://img.shields.io/badge/Main_model-Opus_5.5-d2a8ff?style=for-the-badge&logo=anthropic&logoColor=black)
 
@@ -28,7 +28,7 @@ Sep 29 ▄▅▂▆▁▃▂▁▂▂█▄▁▃▃▄▂▂▃  ▂▂▁▄�
 
 LANGUAGES                       MODELS                       
 TypeScript ████████████   63%   Opus 5.5   ████████████   98%
-JavaScript ██░░░░░░░░░░   11%   Sonnet 5.5 ░░░░░░░░░░░░    1%
+JavaScript ██░░░░░░░░░░   10%   Sonnet 5.5 ░░░░░░░░░░░░    1%
 Java       ██░░░░░░░░░░   10%   Haiku 4.5  ░░░░░░░░░░░░   <1%
 Python     █░░░░░░░░░░░    6%   Sonnet 5   ░░░░░░░░░░░░   <1%
 Swift      █░░░░░░░░░░░    3%   Haiku 5.5  ░░░░░░░░░░░░   <1%
