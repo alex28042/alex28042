@@ -18,16 +18,16 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 <!-- claude-code:start -->
 <div align="center">
 
-![Lines · 30 days](https://img.shields.io/badge/Lines_%C2%B7_30_days-578.5K-6e40c9?style=for-the-badge&logo=claude&logoColor=white)
-![Since Aug 2026](https://img.shields.io/badge/Since_Aug_2026-2.19M-8957e5?style=for-the-badge)
+![Lines · 30 days](https://img.shields.io/badge/Lines_%C2%B7_30_days-588.2K-6e40c9?style=for-the-badge&logo=claude&logoColor=white)
+![Since Aug 2026](https://img.shields.io/badge/Since_Aug_2026-2.20M-8957e5?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-10_days-a371f7?style=for-the-badge)
 ![Main model](https://img.shields.io/badge/Main_model-Opus_5.5-d2a8ff?style=for-the-badge&logo=anthropic&logoColor=black)
 
 ```text
-Sep 30 ▅▂▆▁▃▂▁▂▂█▄▁▃▃▄▂▂▃  ▂▂▁▄▄▄▂▄▃▄ Oct 29   peak 151.6K/day · 28 of 30 days active
+Sep 30 ▅▂▆▁▃▂▁▂▂█▄▁▃▃▄▂▂▃  ▂▂▁▄▄▄▂▄▃▅ Oct 29   peak 151.6K/day · 28 of 30 days active
 
 LANGUAGES                       MODELS                       
-TypeScript ████████████   65%   Opus 5.5   ████████████   98%
+TypeScript ████████████   66%   Opus 5.5   ████████████   98%
 JavaScript ██░░░░░░░░░░    9%   Sonnet 5.5 ░░░░░░░░░░░░    1%
 Java       ██░░░░░░░░░░    9%   Haiku 4.5  ░░░░░░░░░░░░   <1%
 Python     █░░░░░░░░░░░    6%   Sonnet 5   ░░░░░░░░░░░░   <1%
