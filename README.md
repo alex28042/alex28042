@@ -20,11 +20,11 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 
 ![Lines · 30 days](https://img.shields.io/badge/Lines_%C2%B7_30_days-546.5K-6e40c9?style=for-the-badge&logo=claude&logoColor=white)
 ![Since Aug 2026](https://img.shields.io/badge/Since_Aug_2026-2.27M-8957e5?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Streak-13_days-a371f7?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Streak-14_days-a371f7?style=for-the-badge)
 ![Main model](https://img.shields.io/badge/Main_model-Opus_5.5-d2a8ff?style=for-the-badge&logo=anthropic&logoColor=black)
 
 ```text
-Oct 3 ▁▃▂▁▂▂█▄▁▃▃▄▂▂▃  ▂▂▁▄▄▄▂▄▃▅▅▁▂ Nov 1   peak 151.6K/day · 28 of 30 days active
+Oct 4 ▃▂▁▂▂█▄▁▃▃▄▂▂▃  ▂▂▁▄▄▄▂▄▃▅▅▁▂▁ Nov 2   peak 151.6K/day · 28 of 30 days active
 
 LANGUAGES                       MODELS                       
 TypeScript ████████████   66%   Opus 5.5   ████████████   98%
@@ -34,7 +34,7 @@ Python     █░░░░░░░░░░░    5%   Opus 4.8   ░░░░�
 Swift      █░░░░░░░░░░░    4%   Opus 5     ░░░░░░░░░░░░   <1%
 ```
 
-<sub>Every line Claude Code writes on my laptop · rolling 30 days · refreshed hourly · Nov 1, 2026</sub>
+<sub>Every line Claude Code writes on my laptop · rolling 30 days · refreshed hourly · Nov 2, 2026</sub>
 
 </div>
 <!-- claude-code:end -->
