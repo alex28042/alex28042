@@ -3,10 +3,8 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from datetime import date, timedelta
-from typing import Optional
 
 from .languages import LanguageClassifier
-from .linebar import LifetimeLines
 from .models import model_display_name
 from .records import TranscriptRecords
 
@@ -34,7 +32,6 @@ class ClaudeCodeSummary:
     sessions: int
     output_tokens: int
     files_touched: int
-    lifetime: Optional[LifetimeLines]
 
     @property
     def lines_total(self) -> int:
@@ -44,25 +41,13 @@ class ClaudeCodeSummary:
     def active_days(self) -> int:
         return sum(1 for lines in self.lines_per_day if lines > 0)
 
-    @property
-    def current_streak(self) -> int:
-        streak = 0
-        days = list(self.lines_per_day)
-        if days and days[-1] == 0:
-            days.pop()
-        for lines in reversed(days):
-            if lines == 0:
-                break
-            streak += 1
-        return streak
-
 
 class ClaudeCodeStatsCalculator:
     def __init__(self, classifier: LanguageClassifier, window_days: int) -> None:
         self._classifier = classifier
         self._window_days = window_days
 
-    def summarize(self, records: TranscriptRecords, today: date, lifetime: Optional[LifetimeLines]) -> ClaudeCodeSummary:
+    def summarize(self, records: TranscriptRecords, today: date) -> ClaudeCodeSummary:
         first_day = today - timedelta(days=self._window_days - 1)
         lines_by_day: Counter[date] = Counter()
         lines_by_language: Counter[str] = Counter()
@@ -101,5 +86,4 @@ class ClaudeCodeStatsCalculator:
             sessions=len(sessions - {""}),
             output_tokens=sum(tokens_by_model.values()),
             files_touched=len(files),
-            lifetime=lifetime,
         )

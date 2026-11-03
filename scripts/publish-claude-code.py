@@ -4,11 +4,12 @@ import os
 import sys
 from datetime import date, datetime
 
-from claude_code.composition import BRANCH, CLONE_DIR, REMOTE_URL, SECTION_NAME, render_claude_code_section
+from claude_code.composition import BRANCH, CLONE_DIR, REMOTE_URL, SECTION_NAME, build_claude_code_section
 from claude_code.git_publisher import GitPublisher
 from claude_code.readme import ReadmeFile
 
 RELAUNCHED = "PROFILE_README_RELAUNCHED"
+README = "README.md"
 
 
 def log(message):
@@ -21,9 +22,14 @@ def main():
         log("scripts changed, relaunching with the new version")
         os.environ[RELAUNCHED] = "1"
         os.execv(sys.executable, [sys.executable, *sys.argv])
-    changed = ReadmeFile(CLONE_DIR / "README.md").replace_section(SECTION_NAME, render_claude_code_section(date.today()))
+    section = build_claude_code_section(date.today())
+    for chart in section.charts:
+        target = CLONE_DIR / chart.path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(chart.content)
+    changed = ReadmeFile(CLONE_DIR / README).replace_section(SECTION_NAME, section.markdown)
     log("section changed" if changed else "section unchanged")
-    publisher.publish("README.md", "chore: update Claude Code stats")
+    publisher.publish([README, *[chart.path for chart in section.charts]], "chore: update Claude Code stats")
 
 
 if __name__ == "__main__":

@@ -23,7 +23,7 @@ class ClaudeCodeStatsCalculatorTest(unittest.TestCase):
         self.calculator = ClaudeCodeStatsCalculator(classifier, 7)
 
     def summarize(self, contributions=(), requests=()):
-        return self.calculator.summarize(TranscriptRecords(list(contributions), list(requests)), TODAY, None)
+        return self.calculator.summarize(TranscriptRecords(list(contributions), list(requests)), TODAY)
 
     def test_it_should_leave_out_lines_older_than_the_window(self):
         summary = self.summarize([contribution(27, 5), contribution(1, 100)])
@@ -32,10 +32,6 @@ class ClaudeCodeStatsCalculatorTest(unittest.TestCase):
     def test_it_should_place_each_day_at_its_offset_in_the_window(self):
         summary = self.summarize([contribution(21, 4), contribution(27, 6)])
         self.assertEqual(summary.lines_per_day, [4, 0, 0, 0, 0, 0, 6])
-
-    def test_it_should_keep_the_streak_alive_when_today_has_no_lines_yet(self):
-        summary = self.summarize([contribution(25, 1), contribution(26, 1)])
-        self.assertEqual(summary.current_streak, 2)
 
     def test_it_should_only_group_lines_of_classified_files(self):
         summary = self.summarize([contribution(27, 3, "a.ts"), contribution(27, 9, "notes.md")])

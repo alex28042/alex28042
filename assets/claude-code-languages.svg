@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="268" viewBox="0 0 880 268" role="img" aria-label="Languages Claude Code wrote in the last 30 days: TypeScript 67%, JavaScript 8%, Java 8%, Python 6%, Swift 4%, Other 8%">
+<title>Languages Claude Code wrote in the last 30 days: TypeScript 67%, JavaScript 8%, Java 8%, Python 6%, Swift 4%, Other 8%</title>
+<style>
+svg {
+  --surface: #ffffff; --border: #d0d7de; --grid: #eaeef2;
+  --ink: #1f2328; --ink-2: #59636e; --ink-3: #818b98;
+  --accent: #8957e5; --accent-soft: rgba(137, 87, 229, 0.16); --track: #eaeef2;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --other: #a3a29d;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  svg {
+    --surface: #0d1117; --border: #30363d; --grid: #21262d;
+    --ink: #f0f6fc; --ink-2: #9198a1; --ink-3: #656c76;
+    --accent: #a371f7; --accent-soft: rgba(163, 113, 247, 0.18); --track: #21262d;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --other: #6b6a66;
+  }
+}
+.card { fill: var(--surface); stroke: var(--border); }
+.title { fill: var(--ink); font-size: 16px; font-weight: 600; }
+.subtitle { fill: var(--ink-2); font-size: 12px; }
+.stat { fill: var(--ink); font-size: 22px; font-weight: 600; }
+.stat-label { fill: var(--ink-2); font-size: 11px; }
+.name { fill: var(--ink); font-size: 12px; }
+.value { fill: var(--ink-2); font-size: 12px; font-variant-numeric: tabular-nums; }
+.axis { fill: var(--ink-3); font-size: 10px; font-variant-numeric: tabular-nums; }
+.label { fill: var(--ink); font-size: 11px; font-weight: 600; }
+.panel { fill: var(--ink-2); font-size: 11px; font-weight: 600; }
+.grid { stroke: var(--grid); stroke-width: 1; }
+.divider { stroke: var(--border); stroke-width: 1; }
+.track { fill: var(--track); }
+.bar { fill: var(--accent); transform-box: fill-box; transform-origin: bottom;
+  animation: grow 0.7s cubic-bezier(.2,.8,.2,1) both; }
+.hbar { fill: var(--accent); transform-box: fill-box; transform-origin: left;
+  animation: widen 0.9s cubic-bezier(.2,.8,.2,1) both; }
+.segment { transform-box: fill-box; transform-origin: left; animation: widen 0.9s cubic-bezier(.2,.8,.2,1) both; }
+.area { fill: var(--accent-soft); animation: fade 1.2s ease-out both; }
+.trend { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round;
+  stroke-dasharray: 1; animation: draw 1.4s ease-out both; }
+.dot { fill: var(--accent); stroke: var(--surface); stroke-width: 2; }
+.s1 { fill: var(--s1); } .s2 { fill: var(--s2); } .s3 { fill: var(--s3); }
+.s4 { fill: var(--s4); } .s5 { fill: var(--s5); } .other { fill: var(--other); }
+@keyframes grow { from { transform: scaleY(0); } }
+@keyframes widen { from { transform: scaleX(0); } }
+@keyframes fade { from { opacity: 0; } }
+@keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect class="card" x="0.5" y="0.5" width="879" height="267" rx="12"/>
+<text x="24.0" y="38.0" class="title" text-anchor="start">Languages</text>
+<text x="24.0" y="58.0" class="subtitle" text-anchor="start">Share of lines written · last 30 days</text>
+<rect x="24.0" y="82.0" width="392.0" height="12.0" rx="6.0" class="track"/>
+<rect x="24.0" y="82.0" width="254.5" height="12.0" rx="2.0" class="segment s1" style="animation-delay:0ms"/>
+<rect x="280.5" y="82.0" width="29.6" height="12.0" rx="2.0" class="segment s2" style="animation-delay:90ms"/>
+<rect x="312.2" y="82.0" width="29.6" height="12.0" rx="2.0" class="segment s3" style="animation-delay:180ms"/>
+<rect x="343.8" y="82.0" width="22.1" height="12.0" rx="2.0" class="segment s4" style="animation-delay:270ms"/>
+<rect x="368.0" y="82.0" width="15.8" height="12.0" rx="2.0" class="segment s5" style="animation-delay:360ms"/>
+<rect x="385.7" y="82.0" width="30.3" height="12.0" rx="2.0" class="segment other" style="animation-delay:450ms"/>
+<rect x="24.0" y="115.0" width="10.0" height="10.0" rx="2.0" class="s1"/>
+<text x="42.0" y="124.0" class="name" text-anchor="start">TypeScript</text>
+<text x="416.0" y="124.0" class="value" text-anchor="end">344.2K lines · 67%</text>
+<rect x="24.0" y="137.0" width="10.0" height="10.0" rx="2.0" class="s2"/>
+<text x="42.0" y="146.0" class="name" text-anchor="start">JavaScript</text>
+<text x="416.0" y="146.0" class="value" text-anchor="end">40.1K lines · 8%</text>
+<rect x="24.0" y="159.0" width="10.0" height="10.0" rx="2.0" class="s3"/>
+<text x="42.0" y="168.0" class="name" text-anchor="start">Java</text>
+<text x="416.0" y="168.0" class="value" text-anchor="end">40.1K lines · 8%</text>
+<rect x="24.0" y="181.0" width="10.0" height="10.0" rx="2.0" class="s4"/>
+<text x="42.0" y="190.0" class="name" text-anchor="start">Python</text>
+<text x="416.0" y="190.0" class="value" text-anchor="end">29.9K lines · 6%</text>
+<rect x="24.0" y="203.0" width="10.0" height="10.0" rx="2.0" class="s5"/>
+<text x="42.0" y="212.0" class="name" text-anchor="start">Swift</text>
+<text x="416.0" y="212.0" class="value" text-anchor="end">21.3K lines · 4%</text>
+<rect x="24.0" y="225.0" width="10.0" height="10.0" rx="2.0" class="other"/>
+<text x="42.0" y="234.0" class="name" text-anchor="start">Other</text>
+<text x="416.0" y="234.0" class="value" text-anchor="end">40.9K lines · 8%</text>
+<line x1="440.0" y1="24.0" x2="440.0" y2="244.0" class="divider"/>
+<text x="464.0" y="38.0" class="title" text-anchor="start">Models</text>
+<text x="464.0" y="58.0" class="subtitle" text-anchor="start">Share of requests · last 30 days</text>
+<text x="464.0" y="92.0" class="name" text-anchor="start">Opus 5.5</text>
+<rect x="556.0" y="84.0" width="256.0" height="8.0" rx="4.0" class="track"/>
+<rect x="556.0" y="84.0" width="250.0" height="8.0" rx="4.0" class="hbar" style="animation-delay:0ms"/>
+<text x="856.0" y="92.0" class="value" text-anchor="end">98%</text>
+<text x="464.0" y="118.0" class="name" text-anchor="start">Haiku 5.5</text>
+<rect x="556.0" y="110.0" width="256.0" height="8.0" rx="4.0" class="track"/>
+<rect x="556.0" y="110.0" width="4.7" height="8.0" rx="4.0" class="hbar" style="animation-delay:90ms"/>
+<text x="856.0" y="118.0" class="value" text-anchor="end">2%</text>
+<text x="464.0" y="144.0" class="name" text-anchor="start">Sonnet 5.5</text>
+<rect x="556.0" y="136.0" width="256.0" height="8.0" rx="4.0" class="track"/>
+<rect x="556.0" y="136.0" width="4.0" height="8.0" rx="4.0" class="hbar" style="animation-delay:180ms"/>
+<text x="856.0" y="144.0" class="value" text-anchor="end">&lt;1%</text>
+<text x="464.0" y="170.0" class="name" text-anchor="start">Opus 4.8</text>
+<rect x="556.0" y="162.0" width="256.0" height="8.0" rx="4.0" class="track"/>
+<rect x="556.0" y="162.0" width="4.0" height="8.0" rx="4.0" class="hbar" style="animation-delay:270ms"/>
+<text x="856.0" y="170.0" class="value" text-anchor="end">&lt;1%</text>
+<text x="464.0" y="222.0" class="stat" text-anchor="start">243</text>
+<text x="464.0" y="240.0" class="stat-label" text-anchor="start">sessions</text>
+<text x="562.0" y="222.0" class="stat" text-anchor="start">10.2K</text>
+<text x="562.0" y="240.0" class="stat-label" text-anchor="start">files touched</text>
+<text x="660.0" y="222.0" class="stat" text-anchor="start">61.00M</text>
+<text x="660.0" y="240.0" class="stat-label" text-anchor="start">output tokens</text>
+<text x="758.0" y="222.0" class="stat" text-anchor="start">28/30</text>
+<text x="758.0" y="240.0" class="stat-label" text-anchor="start">active days</text>
+</svg>

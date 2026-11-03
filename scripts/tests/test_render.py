@@ -1,23 +1,25 @@
 import unittest
+from datetime import date
 
-from claude_code.render import badge_text, bar, compact, percent, shares
+from claude_code.render import ChartImage, ClaudeCodeSectionRenderer, image_url
+
+CHART = ChartImage("assets/daily.svg", "<svg>v1</svg>", "Lines per day & more")
 
 
-class RenderHelpersTest(unittest.TestCase):
-    def test_it_should_escape_dashes_underscores_and_spaces_for_shields(self):
-        self.assertEqual(badge_text("Lines - my_repo"), "Lines_--_my__repo")
+class SectionRendererTest(unittest.TestCase):
+    def test_it_should_point_to_the_raw_file_on_main(self):
+        self.assertTrue(image_url(CHART).startswith("https://raw.githubusercontent.com/alex28042/alex28042/main/assets/daily.svg?v="))
 
-    def test_it_should_fill_the_whole_bar_for_the_peak(self):
-        self.assertEqual(bar(1.0), "████████████")
+    def test_it_should_change_the_url_when_the_chart_changes(self):
+        self.assertNotEqual(image_url(CHART), image_url(ChartImage(CHART.path, "<svg>v2</svg>", CHART.description)))
 
-    def test_it_should_show_tiny_shares_as_less_than_one_percent(self):
-        self.assertEqual(percent(0.002), "<1%")
+    def test_it_should_escape_the_description_in_the_alt_text(self):
+        section = ClaudeCodeSectionRenderer().render([CHART], date(2026, 11, 3))
+        self.assertIn('alt="Lines per day &amp; more"', section)
 
-    def test_it_should_compact_millions_with_two_decimals(self):
-        self.assertEqual(compact(2_142_419), "2.14M")
-
-    def test_it_should_scale_bars_against_the_largest_entry(self):
-        self.assertEqual(shares([("a", 50), ("b", 25)], 100)[1], ("b", 0.25, 0.5))
+    def test_it_should_stamp_the_refresh_day(self):
+        section = ClaudeCodeSectionRenderer().render([CHART], date(2026, 11, 3))
+        self.assertIn("refreshed hourly · Nov 3, 2026", section)
 
 
 if __name__ == "__main__":

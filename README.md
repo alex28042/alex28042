@@ -13,28 +13,15 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 
 </div>
 
-<h3 align="center">Last 30 days with Claude Code</h3>
+<h3 align="center">Claude Code, day by day</h3>
 
 <!-- claude-code:start -->
 <div align="center">
 
-![Lines · 30 days](https://img.shields.io/badge/Lines_%C2%B7_30_days-551.7K-6e40c9?style=for-the-badge&logo=claude&logoColor=white)
-![Since Aug 2026](https://img.shields.io/badge/Since_Aug_2026-2.29M-8957e5?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Streak-15_days-a371f7?style=for-the-badge)
-![Main model](https://img.shields.io/badge/Main_model-Opus_5.5-d2a8ff?style=for-the-badge&logo=anthropic&logoColor=black)
+<img src="https://raw.githubusercontent.com/alex28042/alex28042/main/assets/claude-code-daily.svg?v=398d351256" width="100%" alt="Lines written with Claude Code per day since Aug 12, 2026: 2.29M in total, best day 169.9K on Aug 18" />
+<img src="https://raw.githubusercontent.com/alex28042/alex28042/main/assets/claude-code-languages.svg?v=0a30a947c7" width="100%" alt="Languages Claude Code wrote in the last 30 days: TypeScript 67%, JavaScript 8%, Java 8%, Python 6%, Swift 4%, Other 8%" />
 
-```text
-Oct 5 ▂▁▂▂█▄▁▃▃▄▂▂▃  ▂▂▁▄▄▄▂▄▃▅▅▁▂▃▃ Nov 3   peak 151.6K/day · 28 of 30 days active
-
-LANGUAGES                       MODELS                       
-TypeScript ████████████   67%   Opus 5.5   ████████████   98%
-Java       █░░░░░░░░░░░    8%   Haiku 5.5  ░░░░░░░░░░░░    2%
-JavaScript █░░░░░░░░░░░    8%   Sonnet 5.5 ░░░░░░░░░░░░   <1%
-Python     █░░░░░░░░░░░    6%   Opus 4.8   ░░░░░░░░░░░░   <1%
-Swift      █░░░░░░░░░░░    4%   Opus 5     ░░░░░░░░░░░░   <1%
-```
-
-<sub>Every line Claude Code writes on my laptop · rolling 30 days · refreshed hourly · Nov 3, 2026</sub>
+<sub>Every line Claude Code writes on my laptop · refreshed hourly · Nov 3, 2026</sub>
 
 </div>
 <!-- claude-code:end -->

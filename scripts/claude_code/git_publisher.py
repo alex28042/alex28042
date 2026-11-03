@@ -40,9 +40,9 @@ class GitPublisher:
             self._git("fetch", "origin", self._branch)
             self._git("reset", "--hard", f"origin/{self._branch}")
 
-    def publish(self, file_name: str, message: str) -> None:
-        if self._git("status", "--porcelain", "--", file_name):
-            self._git("add", "--", file_name)
+    def publish(self, file_names: list[str], message: str) -> None:
+        if self._git("status", "--porcelain", "--", *file_names):
+            self._git("add", "--", *file_names)
             self._git("-c", f"user.name={BOT_NAME}", "-c", f"user.email={BOT_EMAIL}", "commit", "-m", message)
         if not self._git("log", f"origin/{self._branch}..HEAD", "--oneline"):
             self._log("nothing to push")
