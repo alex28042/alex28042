@@ -36,9 +36,12 @@ class GitPublisher:
             self._git("pull", "--rebase", "origin", self._branch)
         except GitCommandError as error:
             self._log(f"pull failed, resetting to origin: {error}")
-            self._git("rebase", "--abort", check=False)
-            self._git("fetch", "origin", self._branch)
-            self._git("reset", "--hard", f"origin/{self._branch}")
+            self._reset_to_origin()
+
+    def _reset_to_origin(self) -> None:
+        self._git("rebase", "--abort", check=False)
+        self._git("fetch", "origin", self._branch)
+        self._git("reset", "--hard", f"origin/{self._branch}")
 
     def publish(self, file_names: list[str], message: str) -> None:
         if self._git("status", "--porcelain", "--", *file_names):
@@ -47,7 +50,12 @@ class GitPublisher:
         if not self._git("log", f"origin/{self._branch}..HEAD", "--oneline"):
             self._log("nothing to push")
             return
-        self._git("pull", "--rebase", "origin", self._branch)
+        try:
+            self._git("pull", "--rebase", "origin", self._branch)
+        except GitCommandError as error:
+            self._log(f"rebase conflict, dropping this run's stats until the next run: {error}")
+            self._reset_to_origin()
+            return
         self._git("push", "origin", f"HEAD:{self._branch}")
         self._log("pushed")
 
