@@ -33,15 +33,15 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 <!-- activity:start -->
 ![Commits](https://img.shields.io/badge/Commits-10.7K-6e40c9?style=flat-square&logo=git&logoColor=white)
 ![2026](https://img.shields.io/badge/2026-6.2K_commits-8957e5?style=flat-square&logo=github&logoColor=white)
-![Repositories](https://img.shields.io/badge/Repositories-100-a371f7?style=flat-square&logo=github&logoColor=white)
+![Repositories](https://img.shields.io/badge/Repositories-101-a371f7?style=flat-square&logo=github&logoColor=white)
 <!-- activity:end -->
 
 <!-- languages:start -->
-![TypeScript](https://img.shields.io/badge/TypeScript-1.80M_lines-6e40c9?style=flat-square&logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-1.81M_lines-6e40c9?style=flat-square&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-252.1K_lines-6e40c9?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-104.5K_lines-8957e5?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-73.0K_lines-d2a8ff?style=flat-square&logo=rust&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-52.0K_lines-d2a8ff?style=flat-square&logo=swift&logoColor=black)
+![Python](https://img.shields.io/badge/Python-104.7K_lines-8957e5?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-86.5K_lines-d2a8ff?style=flat-square&logo=rust&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-57.8K_lines-d2a8ff?style=flat-square&logo=swift&logoColor=black)
 <!-- languages:end -->
 
 </div>
