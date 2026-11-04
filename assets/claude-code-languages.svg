@@ -50,12 +50,12 @@ svg {
 <text x="24.0" y="38.0" class="title" text-anchor="start">Languages</text>
 <text x="24.0" y="58.0" class="subtitle" text-anchor="start">Share of lines written · last 30 days</text>
 <rect x="24.0" y="82.0" width="392.0" height="12.0" rx="6.0" class="track"/>
-<rect x="24.0" y="82.0" width="239.6" height="12.0" rx="2.0" class="segment s1" style="animation-delay:0ms"/>
-<rect x="265.6" y="82.0" width="28.3" height="12.0" rx="2.0" class="segment s2" style="animation-delay:90ms"/>
+<rect x="24.0" y="82.0" width="239.5" height="12.0" rx="2.0" class="segment s1" style="animation-delay:0ms"/>
+<rect x="265.5" y="82.0" width="28.3" height="12.0" rx="2.0" class="segment s2" style="animation-delay:90ms"/>
 <rect x="295.9" y="82.0" width="27.8" height="12.0" rx="2.0" class="segment s3" style="animation-delay:180ms"/>
-<rect x="325.7" y="82.0" width="23.2" height="12.0" rx="2.0" class="segment s4" style="animation-delay:270ms"/>
-<rect x="350.9" y="82.0" width="21.4" height="12.0" rx="2.0" class="segment s5" style="animation-delay:360ms"/>
-<rect x="374.3" y="82.0" width="41.7" height="12.0" rx="2.0" class="segment other" style="animation-delay:450ms"/>
+<rect x="325.6" y="82.0" width="23.2" height="12.0" rx="2.0" class="segment s4" style="animation-delay:270ms"/>
+<rect x="350.8" y="82.0" width="21.4" height="12.0" rx="2.0" class="segment s5" style="animation-delay:360ms"/>
+<rect x="374.2" y="82.0" width="41.8" height="12.0" rx="2.0" class="segment other" style="animation-delay:450ms"/>
 <rect x="24.0" y="115.0" width="10.0" height="10.0" rx="2.0" class="s1"/>
 <text x="42.0" y="124.0" class="name" text-anchor="start">TypeScript</text>
 <text x="416.0" y="124.0" class="value" text-anchor="end">353.6K lines · 63%</text>
@@ -73,7 +73,7 @@ svg {
 <text x="416.0" y="212.0" class="value" text-anchor="end">31.6K lines · 6%</text>
 <rect x="24.0" y="225.0" width="10.0" height="10.0" rx="2.0" class="other"/>
 <text x="42.0" y="234.0" class="name" text-anchor="start">Other</text>
-<text x="416.0" y="234.0" class="value" text-anchor="end">61.6K lines · 11%</text>
+<text x="416.0" y="234.0" class="value" text-anchor="end">61.7K lines · 11%</text>
 <line x1="440.0" y1="24.0" x2="440.0" y2="244.0" class="divider"/>
 <text x="464.0" y="38.0" class="title" text-anchor="start">Models</text>
 <text x="464.0" y="58.0" class="subtitle" text-anchor="start">Share of requests · last 30 days</text>
@@ -97,7 +97,7 @@ svg {
 <text x="464.0" y="240.0" class="stat-label" text-anchor="start">sessions</text>
 <text x="562.0" y="222.0" class="stat" text-anchor="start">10.7K</text>
 <text x="562.0" y="240.0" class="stat-label" text-anchor="start">files touched</text>
-<text x="660.0" y="222.0" class="stat" text-anchor="start">63.62M</text>
+<text x="660.0" y="222.0" class="stat" text-anchor="start">63.63M</text>
 <text x="660.0" y="240.0" class="stat-label" text-anchor="start">output tokens</text>
 <text x="758.0" y="222.0" class="stat" text-anchor="start">28/30</text>
 <text x="758.0" y="240.0" class="stat-label" text-anchor="start">active days</text>
