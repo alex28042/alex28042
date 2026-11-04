@@ -41,7 +41,7 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 ![Java](https://img.shields.io/badge/Java-252.1K_lines-6e40c9?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-104.9K_lines-8957e5?style=flat-square&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-103.3K_lines-d2a8ff?style=flat-square&logo=rust&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-62.1K_lines-d2a8ff?style=flat-square&logo=swift&logoColor=black)
+![Swift](https://img.shields.io/badge/Swift-63.9K_lines-d2a8ff?style=flat-square&logo=swift&logoColor=black)
 <!-- languages:end -->
 
 </div>
