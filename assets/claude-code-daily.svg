@@ -51,7 +51,7 @@ svg {
 <text x="24.0" y="58.0" class="subtitle" text-anchor="start">Every day since Aug 12, 2026 · lines added, not commits</text>
 <text x="24.0" y="102.0" class="stat" text-anchor="start">2.30M</text>
 <text x="24.0" y="120.0" class="stat-label" text-anchor="start">lines since Aug 12</text>
-<text x="232.0" y="102.0" class="stat" text-anchor="start">556.2K</text>
+<text x="232.0" y="102.0" class="stat" text-anchor="start">556.3K</text>
 <text x="232.0" y="120.0" class="stat-label" text-anchor="start">last 30 days</text>
 <text x="440.0" y="102.0" class="stat" text-anchor="start">16 days</text>
 <text x="440.0" y="120.0" class="stat-label" text-anchor="start">current streak</text>
