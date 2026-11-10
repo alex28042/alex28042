@@ -50,41 +50,41 @@ svg {
 <text x="24.0" y="38.0" class="title" text-anchor="start">Languages</text>
 <text x="24.0" y="58.0" class="subtitle" text-anchor="start">Share of lines written · last 30 days</text>
 <rect x="24.0" y="82.0" width="392.0" height="12.0" rx="6.0" class="track"/>
-<rect x="24.0" y="82.0" width="194.1" height="12.0" rx="2.0" class="segment s1" style="animation-delay:0ms"/>
-<rect x="220.1" y="82.0" width="39.9" height="12.0" rx="2.0" class="segment s2" style="animation-delay:90ms"/>
-<rect x="262.0" y="82.0" width="39.4" height="12.0" rx="2.0" class="segment s3" style="animation-delay:180ms"/>
-<rect x="303.4" y="82.0" width="35.0" height="12.0" rx="2.0" class="segment s4" style="animation-delay:270ms"/>
-<rect x="340.5" y="82.0" width="25.8" height="12.0" rx="2.0" class="segment s5" style="animation-delay:360ms"/>
-<rect x="368.3" y="82.0" width="47.7" height="12.0" rx="2.0" class="segment other" style="animation-delay:450ms"/>
+<rect x="24.0" y="82.0" width="193.6" height="12.0" rx="2.0" class="segment s1" style="animation-delay:0ms"/>
+<rect x="219.6" y="82.0" width="39.6" height="12.0" rx="2.0" class="segment s2" style="animation-delay:90ms"/>
+<rect x="261.2" y="82.0" width="39.5" height="12.0" rx="2.0" class="segment s3" style="animation-delay:180ms"/>
+<rect x="302.7" y="82.0" width="36.1" height="12.0" rx="2.0" class="segment s4" style="animation-delay:270ms"/>
+<rect x="340.9" y="82.0" width="25.6" height="12.0" rx="2.0" class="segment s5" style="animation-delay:360ms"/>
+<rect x="368.5" y="82.0" width="47.5" height="12.0" rx="2.0" class="segment other" style="animation-delay:450ms"/>
 <rect x="24.0" y="115.0" width="10.0" height="10.0" rx="2.0" class="s1"/>
 <text x="42.0" y="124.0" class="name" text-anchor="start">TypeScript</text>
-<text x="416.0" y="124.0" class="value" text-anchor="end">284.7K lines · 51%</text>
+<text x="416.0" y="124.0" class="value" text-anchor="end">286.8K lines · 51%</text>
 <rect x="24.0" y="137.0" width="10.0" height="10.0" rx="2.0" class="s2"/>
 <text x="42.0" y="146.0" class="name" text-anchor="start">Rust</text>
-<text x="416.0" y="146.0" class="value" text-anchor="end">58.5K lines · 10%</text>
+<text x="416.0" y="146.0" class="value" text-anchor="end">58.7K lines · 10%</text>
 <rect x="24.0" y="159.0" width="10.0" height="10.0" rx="2.0" class="s3"/>
 <text x="42.0" y="168.0" class="name" text-anchor="start">Swift</text>
-<text x="416.0" y="168.0" class="value" text-anchor="end">57.8K lines · 10%</text>
+<text x="416.0" y="168.0" class="value" text-anchor="end">58.6K lines · 10%</text>
 <rect x="24.0" y="181.0" width="10.0" height="10.0" rx="2.0" class="s4"/>
 <text x="42.0" y="190.0" class="name" text-anchor="start">Java</text>
-<text x="416.0" y="190.0" class="value" text-anchor="end">51.4K lines · 9%</text>
+<text x="416.0" y="190.0" class="value" text-anchor="end">53.6K lines · 9%</text>
 <rect x="24.0" y="203.0" width="10.0" height="10.0" rx="2.0" class="s5"/>
 <text x="42.0" y="212.0" class="name" text-anchor="start">JavaScript</text>
-<text x="416.0" y="212.0" class="value" text-anchor="end">37.8K lines · 7%</text>
+<text x="416.0" y="212.0" class="value" text-anchor="end">37.9K lines · 7%</text>
 <rect x="24.0" y="225.0" width="10.0" height="10.0" rx="2.0" class="other"/>
 <text x="42.0" y="234.0" class="name" text-anchor="start">Other</text>
-<text x="416.0" y="234.0" class="value" text-anchor="end">70.0K lines · 12%</text>
+<text x="416.0" y="234.0" class="value" text-anchor="end">70.4K lines · 12%</text>
 <line x1="440.0" y1="24.0" x2="440.0" y2="244.0" class="divider"/>
 <text x="464.0" y="38.0" class="title" text-anchor="start">Models</text>
 <text x="464.0" y="58.0" class="subtitle" text-anchor="start">Share of requests · last 30 days</text>
 <text x="464.0" y="92.0" class="name" text-anchor="start">Opus 5.5</text>
 <rect x="556.0" y="84.0" width="256.0" height="8.0" rx="4.0" class="track"/>
-<rect x="556.0" y="84.0" width="243.1" height="8.0" rx="4.0" class="hbar" style="animation-delay:0ms"/>
+<rect x="556.0" y="84.0" width="242.7" height="8.0" rx="4.0" class="hbar" style="animation-delay:0ms"/>
 <text x="856.0" y="92.0" class="value" text-anchor="end">95%</text>
 <text x="464.0" y="118.0" class="name" text-anchor="start">Fable 5.2</text>
 <rect x="556.0" y="110.0" width="256.0" height="8.0" rx="4.0" class="track"/>
-<rect x="556.0" y="110.0" width="6.0" height="8.0" rx="4.0" class="hbar" style="animation-delay:90ms"/>
-<text x="856.0" y="118.0" class="value" text-anchor="end">2%</text>
+<rect x="556.0" y="110.0" width="6.5" height="8.0" rx="4.0" class="hbar" style="animation-delay:90ms"/>
+<text x="856.0" y="118.0" class="value" text-anchor="end">3%</text>
 <text x="464.0" y="144.0" class="name" text-anchor="start">Haiku 5.5</text>
 <rect x="556.0" y="136.0" width="256.0" height="8.0" rx="4.0" class="track"/>
 <rect x="556.0" y="136.0" width="4.0" height="8.0" rx="4.0" class="hbar" style="animation-delay:180ms"/>
@@ -93,11 +93,11 @@ svg {
 <rect x="556.0" y="162.0" width="256.0" height="8.0" rx="4.0" class="track"/>
 <rect x="556.0" y="162.0" width="4.0" height="8.0" rx="4.0" class="hbar" style="animation-delay:270ms"/>
 <text x="856.0" y="170.0" class="value" text-anchor="end">1%</text>
-<text x="464.0" y="222.0" class="stat" text-anchor="start">684</text>
+<text x="464.0" y="222.0" class="stat" text-anchor="start">686</text>
 <text x="464.0" y="240.0" class="stat-label" text-anchor="start">sessions</text>
-<text x="562.0" y="222.0" class="stat" text-anchor="start">10.1K</text>
+<text x="562.0" y="222.0" class="stat" text-anchor="start">10.2K</text>
 <text x="562.0" y="240.0" class="stat-label" text-anchor="start">files touched</text>
-<text x="660.0" y="222.0" class="stat" text-anchor="start">75.80M</text>
+<text x="660.0" y="222.0" class="stat" text-anchor="start">76.71M</text>
 <text x="660.0" y="240.0" class="stat-label" text-anchor="start">output tokens</text>
 <text x="758.0" y="222.0" class="stat" text-anchor="start">28/30</text>
 <text x="758.0" y="240.0" class="stat-label" text-anchor="start">active days</text>
