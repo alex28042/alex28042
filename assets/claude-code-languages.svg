@@ -93,7 +93,7 @@ svg {
 <rect x="556.0" y="162.0" width="256.0" height="8.0" rx="4.0" class="track"/>
 <rect x="556.0" y="162.0" width="4.0" height="8.0" rx="4.0" class="hbar" style="animation-delay:270ms"/>
 <text x="856.0" y="170.0" class="value" text-anchor="end">1%</text>
-<text x="464.0" y="222.0" class="stat" text-anchor="start">682</text>
+<text x="464.0" y="222.0" class="stat" text-anchor="start">683</text>
 <text x="464.0" y="240.0" class="stat-label" text-anchor="start">sessions</text>
 <text x="562.0" y="222.0" class="stat" text-anchor="start">9.8K</text>
 <text x="562.0" y="240.0" class="stat-label" text-anchor="start">files touched</text>
