@@ -97,7 +97,7 @@ svg {
 <text x="464.0" y="240.0" class="stat-label" text-anchor="start">sessions</text>
 <text x="562.0" y="222.0" class="stat" text-anchor="start">11.8K</text>
 <text x="562.0" y="240.0" class="stat-label" text-anchor="start">files touched</text>
-<text x="660.0" y="222.0" class="stat" text-anchor="start">89.96M</text>
+<text x="660.0" y="222.0" class="stat" text-anchor="start">89.98M</text>
 <text x="660.0" y="240.0" class="stat-label" text-anchor="start">output tokens</text>
 <text x="758.0" y="222.0" class="stat" text-anchor="start">28/30</text>
 <text x="758.0" y="240.0" class="stat-label" text-anchor="start">active days</text>
