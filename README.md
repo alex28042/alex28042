@@ -18,8 +18,8 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 <!-- claude-code:start -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alex28042/alex28042/main/assets/claude-code-daily.svg?v=9afda1c005" width="100%" alt="Lines written with Claude Code per day since Aug 12, 2026: 2.85M in total, best day 169.9K on Aug 18" />
-<img src="https://raw.githubusercontent.com/alex28042/alex28042/main/assets/claude-code-languages.svg?v=db3a7a0431" width="100%" alt="Languages Claude Code wrote in the last 30 days: TypeScript 50%, Rust 15%, Swift 10%, Java 8%, JavaScript 6%, Other 11%" />
+<img src="https://raw.githubusercontent.com/alex28042/alex28042/main/assets/claude-code-daily.svg?v=f4a35b6843" width="100%" alt="Lines written with Claude Code per day since Aug 12, 2026: 2.85M in total, best day 169.9K on Aug 18" />
+<img src="https://raw.githubusercontent.com/alex28042/alex28042/main/assets/claude-code-languages.svg?v=8ad6e52d18" width="100%" alt="Languages Claude Code wrote in the last 30 days: TypeScript 49%, Rust 15%, Swift 11%, Java 7%, JavaScript 6%, Other 11%" />
 
 <sub>Every line Claude Code writes on my laptop · refreshed hourly · Nov 18, 2026</sub>
 
