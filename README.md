@@ -31,16 +31,16 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 <div align="center">
 
 <!-- activity:start -->
-![Commits](https://img.shields.io/badge/Commits-10.8K-6e40c9?style=flat-square&logo=git&logoColor=white)
-![2026](https://img.shields.io/badge/2026-6.3K_commits-8957e5?style=flat-square&logo=github&logoColor=white)
+![Commits](https://img.shields.io/badge/Commits-13.0K-6e40c9?style=flat-square&logo=git&logoColor=white)
+![2026](https://img.shields.io/badge/2026-8.5K_commits-8957e5?style=flat-square&logo=github&logoColor=white)
 ![Repositories](https://img.shields.io/badge/Repositories-101-a371f7?style=flat-square&logo=github&logoColor=white)
 <!-- activity:end -->
 
 <!-- languages:start -->
-![TypeScript](https://img.shields.io/badge/TypeScript-1.81M_lines-6e40c9?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-252.1K_lines-6e40c9?style=flat-square&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-1.88M_lines-6e40c9?style=flat-square&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-252.0K_lines-6e40c9?style=flat-square&logo=openjdk&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-112.0K_lines-d2a8ff?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-104.9K_lines-8957e5?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-103.3K_lines-d2a8ff?style=flat-square&logo=rust&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-63.9K_lines-d2a8ff?style=flat-square&logo=swift&logoColor=black)
 <!-- languages:end -->
 
