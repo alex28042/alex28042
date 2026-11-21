@@ -166,7 +166,7 @@ svg {
 <path d="M826.1,274.0 V264.8 Q826.1,261.9 829.0,261.9 H829.0 Q831.8,261.9 831.8,264.8 V274.0 Z" class="bar" style="animation-delay:588ms"/>
 <path d="M833.8,274.0 V265.3 Q833.8,262.4 836.7,262.4 H836.7 Q839.5,262.4 839.5,265.3 V274.0 Z" class="bar" style="animation-delay:594ms"/>
 <path d="M841.5,274.0 V273.9 Q841.5,271.0 844.4,271.0 H844.4 Q847.3,271.0 847.3,273.9 V274.0 Z" class="bar" style="animation-delay:600ms"/>
-<path d="M849.3,274.0 V272.7 Q849.3,269.8 852.1,269.8 H852.1 Q855.0,269.8 855.0,272.7 V274.0 Z" class="bar" style="animation-delay:606ms"/>
+<path d="M849.3,274.0 V272.6 Q849.3,269.8 852.1,269.8 H852.1 Q855.0,269.8 855.0,272.6 V274.0 Z" class="bar" style="animation-delay:606ms"/>
 <text x="124.2" y="191.3" class="label" text-anchor="start">169.9K</text>
 <text x="24.0" y="296.0" class="panel" text-anchor="start">RUNNING TOTAL</text>
 <line x1="68.0" y1="352.0" x2="856.0" y2="352.0" class="grid"/>
