@@ -37,7 +37,7 @@ Backend engineer at **Getnet** · building products at **AlherTech**: APIs, apps
 <!-- activity:end -->
 
 <!-- languages:start -->
-![TypeScript](https://img.shields.io/badge/TypeScript-1.89M_lines-6e40c9?style=flat-square&logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-1.90M_lines-6e40c9?style=flat-square&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-252.1K_lines-6e40c9?style=flat-square&logo=openjdk&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-112.0K_lines-d2a8ff?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-104.9K_lines-8957e5?style=flat-square&logo=python&logoColor=white)
