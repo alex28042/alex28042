@@ -53,7 +53,7 @@ svg {
 <text x="24.0" y="120.0" class="stat-label" text-anchor="start">lines since Aug 12</text>
 <text x="232.0" y="102.0" class="stat" text-anchor="start">800.9K</text>
 <text x="232.0" y="120.0" class="stat-label" text-anchor="start">last 30 days</text>
-<text x="440.0" y="102.0" class="stat" text-anchor="start">7 days</text>
+<text x="440.0" y="102.0" class="stat" text-anchor="start">8 days</text>
 <text x="440.0" y="120.0" class="stat-label" text-anchor="start">current streak</text>
 <text x="648.0" y="102.0" class="stat" text-anchor="start">169.9K</text>
 <text x="648.0" y="120.0" class="stat-label" text-anchor="start">best day · Aug 18</text>
@@ -168,6 +168,7 @@ svg {
 <path d="M826.7,274.0 V273.8 Q826.7,271.0 829.5,271.0 H829.5 Q832.3,271.0 832.3,273.8 V274.0 Z" class="bar" style="animation-delay:600ms"/>
 <path d="M834.3,274.0 V272.5 Q834.3,269.7 837.1,269.7 H837.1 Q839.8,269.7 839.8,272.5 V274.0 Z" class="bar" style="animation-delay:606ms"/>
 <path d="M841.8,274.0 V274.0 Q841.8,273.9 841.9,273.9 H847.3 Q847.4,273.9 847.4,274.0 V274.0 Z" class="bar" style="animation-delay:612ms"/>
+<path d="M849.4,274.0 V274.0 Q849.4,274.0 849.5,274.0 H855.0 Q855.0,274.0 855.0,274.0 V274.0 Z" class="bar" style="animation-delay:618ms"/>
 <text x="123.2" y="191.3" class="label" text-anchor="start">169.9K</text>
 <text x="24.0" y="296.0" class="panel" text-anchor="start">RUNNING TOTAL</text>
 <line x1="68.0" y1="352.0" x2="856.0" y2="352.0" class="grid"/>
