@@ -51,7 +51,7 @@ svg {
 <text x="24.0" y="58.0" class="subtitle" text-anchor="start">Every day since Aug 12, 2026 · lines added, not commits</text>
 <text x="24.0" y="102.0" class="stat" text-anchor="start">2.99M</text>
 <text x="24.0" y="120.0" class="stat-label" text-anchor="start">lines since Aug 12</text>
-<text x="232.0" y="102.0" class="stat" text-anchor="start">871.7K</text>
+<text x="232.0" y="102.0" class="stat" text-anchor="start">871.8K</text>
 <text x="232.0" y="120.0" class="stat-label" text-anchor="start">last 30 days</text>
 <text x="440.0" y="102.0" class="stat" text-anchor="start">10 days</text>
 <text x="440.0" y="120.0" class="stat-label" text-anchor="start">current streak</text>
@@ -170,7 +170,7 @@ svg {
 <path d="M827.3,274.0 V274.0 Q827.3,273.9 827.3,273.9 H832.6 Q832.7,273.9 832.7,274.0 V274.0 Z" class="bar" style="animation-delay:612ms"/>
 <path d="M834.7,274.0 V236.8 Q834.7,234.1 837.4,234.1 H837.4 Q840.1,234.1 840.1,236.8 V274.0 Z" class="bar" style="animation-delay:618ms"/>
 <path d="M842.1,274.0 V265.2 Q842.1,262.5 844.8,262.5 H844.8 Q847.6,262.5 847.6,265.2 V274.0 Z" class="bar" style="animation-delay:624ms"/>
-<path d="M849.6,274.0 V274.0 Q849.6,274.0 849.6,274.0 H855.0 Q855.0,274.0 855.0,274.0 V274.0 Z" class="bar" style="animation-delay:630ms"/>
+<path d="M849.6,274.0 V274.0 Q849.6,273.9 849.6,273.9 H854.9 Q855.0,273.9 855.0,274.0 V274.0 Z" class="bar" style="animation-delay:630ms"/>
 <text x="122.3" y="191.3" class="label" text-anchor="start">169.9K</text>
 <text x="24.0" y="296.0" class="panel" text-anchor="start">RUNNING TOTAL</text>
 <line x1="68.0" y1="352.0" x2="856.0" y2="352.0" class="grid"/>
