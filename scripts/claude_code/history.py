@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date, timedelta
-from itertools import accumulate
 
 
 @dataclass(frozen=True)
@@ -10,6 +9,7 @@ class DailyHistory:
     first_day: date
     lines_per_day: list[int]
     lines_before: int
+    started_on: date
 
     @property
     def last_day(self) -> date:
@@ -18,18 +18,6 @@ class DailyHistory:
     @property
     def total(self) -> int:
         return self.lines_before + sum(self.lines_per_day)
-
-    @property
-    def running_totals(self) -> list[int]:
-        return list(accumulate(self.lines_per_day, initial=self.lines_before))[1:]
-
-    @property
-    def peak_index(self) -> int:
-        return max(range(len(self.lines_per_day)), key=lambda index: self.lines_per_day[index])
-
-    @property
-    def peak_day(self) -> date:
-        return self.day_at(self.peak_index)
 
     @property
     def current_streak(self) -> int:
@@ -64,4 +52,5 @@ def build_daily_history(
         first_day=first_day,
         lines_per_day=[lines_by_day.get(first_day + timedelta(days=offset), 0) for offset in range(span)],
         lines_before=sum(lines for day, lines in lines_by_day.items() if day < first_day),
+        started_on=earliest_active,
     )

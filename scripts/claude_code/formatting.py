@@ -17,10 +17,6 @@ def percent(ratio: float) -> str:
     return f"{ratio * 100:.0f}%" if ratio >= 0.01 else "<1%"
 
 
-def plural(count: int, noun: str) -> str:
-    return f"{count} {noun}" if count == 1 else f"{count} {noun}s"
-
-
 def format_month(day: date) -> str:
     return MONTHS[day.month - 1]
 

@@ -1,6 +1,4 @@
 import unittest
-from datetime import date
-
 from claude_code.render import ChartImage, ClaudeCodeSectionRenderer, image_url
 
 CHART = ChartImage("assets/daily.svg", "<svg>v1</svg>", "Lines per day & more")
@@ -14,12 +12,8 @@ class SectionRendererTest(unittest.TestCase):
         self.assertNotEqual(image_url(CHART), image_url(ChartImage(CHART.path, "<svg>v2</svg>", CHART.description)))
 
     def test_it_should_escape_the_description_in_the_alt_text(self):
-        section = ClaudeCodeSectionRenderer().render([CHART], date(2026, 11, 3))
+        section = ClaudeCodeSectionRenderer().render([CHART])
         self.assertIn('alt="Lines per day &amp; more"', section)
-
-    def test_it_should_stamp_the_refresh_day(self):
-        section = ClaudeCodeSectionRenderer().render([CHART], date(2026, 11, 3))
-        self.assertIn("refreshed hourly · Nov 3, 2026", section)
 
 
 if __name__ == "__main__":

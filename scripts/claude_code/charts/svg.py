@@ -22,40 +22,38 @@ def text(x: float, y: float, content: str, css_class: str, anchor: str = "start"
     return f'<text x="{x:.1f}" y="{y:.1f}" class="{css_class}" text-anchor="{anchor}">{escape(content)}</text>'
 
 
-def line(x1: float, y1: float, x2: float, y2: float, css_class: str) -> str:
-    return f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" class="{css_class}"/>'
+def rich_text(x: float, y: float, parts: list[tuple[str, str]], css_class: str = "") -> str:
+    spans = "".join(span(content, part_class) for content, part_class in parts)
+    return f'<text x="{x:.1f}" y="{y:.1f}"{class_attribute(css_class)}>{spans}</text>'
 
 
-def rect(x: float, y: float, width: float, height: float, css_class: str, radius: float = 0, style: str = "") -> str:
-    style_attribute = f' style="{style}"' if style else ""
+def span(content: str, css_class: str) -> str:
+    return f'<tspan class="{css_class}">{escape(content)}</tspan>' if css_class else escape(content)
+
+
+def rect(x: float, y: float, width: float, height: float, css_class: str = "", radius: float = 0, style: str = "") -> str:
     return (
-        f'<rect x="{x:.1f}" y="{y:.1f}" width="{width:.1f}" height="{height:.1f}" rx="{radius:.1f}" '
-        f'class="{css_class}"{style_attribute}/>'
+        f'<rect x="{x:.1f}" y="{y:.1f}" width="{width:.1f}" height="{height:.1f}" rx="{radius:.1f}"'
+        f"{class_attribute(css_class)}{style_attribute(style)}/>"
     )
 
 
-def column(x: float, top: float, width: float, base: float, css_class: str, style: str = "") -> str:
-    radius = min(4.0, width / 2, base - top)
-    style_attribute = f' style="{style}"' if style else ""
-    path = (
-        f"M{x:.1f},{base:.1f} V{top + radius:.1f} Q{x:.1f},{top:.1f} {x + radius:.1f},{top:.1f} "
-        f"H{x + width - radius:.1f} Q{x + width:.1f},{top:.1f} {x + width:.1f},{top + radius:.1f} V{base:.1f} Z"
-    )
-    return f'<path d="{path}" class="{css_class}"{style_attribute}/>'
+def circle(x: float, y: float, radius: float, css_class: str = "", style: str = "") -> str:
+    return f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius:.1f}"{class_attribute(css_class)}{style_attribute(style)}/>'
 
 
-def polyline(points: list[tuple[float, float]], css_class: str) -> str:
-    return f'<path d="{point_commands(points)}" class="{css_class}" pathLength="1"/>'
+def group(elements: list[str], css_class: str = "", style: str = "", clip: str = "") -> str:
+    clip_attribute = f' clip-path="url(#{clip})"' if clip else ""
+    return f"<g{class_attribute(css_class)}{style_attribute(style)}{clip_attribute}>{''.join(elements)}</g>"
 
 
-def area(points: list[tuple[float, float]], base: float, css_class: str) -> str:
-    closing = f" L{points[-1][0]:.1f},{base:.1f} L{points[0][0]:.1f},{base:.1f} Z"
-    return f'<path d="{point_commands(points)}{closing}" class="{css_class}"/>'
+def clip_path(identifier: str, shape: str) -> str:
+    return f'<clipPath id="{identifier}">{shape}</clipPath>'
 
 
-def circle(x: float, y: float, radius: float, css_class: str) -> str:
-    return f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius:.1f}" class="{css_class}"/>'
+def class_attribute(css_class: str) -> str:
+    return f' class="{css_class}"' if css_class else ""
 
 
-def point_commands(points: list[tuple[float, float]]) -> str:
-    return " ".join(f"{'M' if index == 0 else 'L'}{x:.1f},{y:.1f}" for index, (x, y) in enumerate(points))
+def style_attribute(style: str) -> str:
+    return f' style="{style}"' if style else ""

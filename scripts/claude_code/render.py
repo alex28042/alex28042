@@ -2,10 +2,7 @@ from __future__ import annotations
 
 import hashlib
 from dataclasses import dataclass
-from datetime import date
 from xml.sax.saxutils import quoteattr
-
-from .formatting import format_full_day
 
 RAW_BASE_URL = "https://raw.githubusercontent.com/alex28042/alex28042/main"
 VERSION_LENGTH = 10
@@ -19,16 +16,8 @@ class ChartImage:
 
 
 class ClaudeCodeSectionRenderer:
-    def render(self, charts: list[ChartImage], refreshed_on: date) -> str:
-        return "\n".join([
-            "<div align=\"center\">",
-            "",
-            *[image_tag(chart) for chart in charts],
-            "",
-            f"<sub>Every line Claude Code writes on my laptop · refreshed hourly · {format_full_day(refreshed_on)}</sub>",
-            "",
-            "</div>",
-        ])
+    def render(self, charts: list[ChartImage]) -> str:
+        return "\n".join(image_tag(chart) for chart in charts)
 
 
 def image_tag(chart: ChartImage) -> str:

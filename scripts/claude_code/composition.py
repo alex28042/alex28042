@@ -4,8 +4,7 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
-from .charts.breakdown_card import BreakdownCard
-from .charts.daily_lines import DailyLinesChart
+from .charts.claude_code_card import CALENDAR_DAYS, ClaudeCodeCard
 from .extractors import default_extractor_registry
 from .history import build_daily_history
 from .languages import default_language_classifier
@@ -16,7 +15,6 @@ from .stats import ClaudeCodeStatsCalculator
 from .transcripts import TranscriptLineParser, TranscriptRepository
 
 WINDOW_DAYS = 30
-HISTORY_DAYS = 120
 SECTION_NAME = "claude-code"
 ASSETS_DIR = "assets"
 HOME = Path.home()
@@ -38,9 +36,9 @@ def build_claude_code_section(today: date) -> ClaudeCodeSection:
     stats = collect_profile_stats(today)
     charts = [
         ChartImage(f"{ASSETS_DIR}/{renderer.file_name}", renderer.render(stats), renderer.describe(stats))
-        for renderer in (DailyLinesChart(), BreakdownCard())
+        for renderer in (ClaudeCodeCard(),)
     ]
-    return ClaudeCodeSection(ClaudeCodeSectionRenderer().render(charts, today), charts)
+    return ClaudeCodeSection(ClaudeCodeSectionRenderer().render(charts), charts)
 
 
 def collect_profile_stats(today: date) -> ProfileStats:
@@ -49,6 +47,6 @@ def collect_profile_stats(today: date) -> ProfileStats:
         repository.load(WINDOW_DAYS), today
     )
     history = build_daily_history(
-        LineBarHistory(LINEBAR_STATS_FILE).daily_lines(), recent.first_day, recent.lines_per_day, HISTORY_DAYS
+        LineBarHistory(LINEBAR_STATS_FILE).daily_lines(), recent.first_day, recent.lines_per_day, CALENDAR_DAYS
     )
     return ProfileStats(recent, history)
