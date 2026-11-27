@@ -11,5 +11,5 @@
 <br />
 
 <!-- claude-code:start -->
-<img src="https://raw.githubusercontent.com/alex28042/alex28042/main/assets/claude-code.svg?v=a672c0c68d" width="100%" alt="Claude Code: 3.42M lines written since Aug 12, 2026 · 12-day streak. Languages, last 30 days: TypeScript 50%, Rust 15%, Swift 13%, Java 8%, Python 5%, Other 10%" />
+<img src="https://raw.githubusercontent.com/alex28042/alex28042/main/assets/claude-code.svg?v=2bd4d66c72" width="100%" alt="Claude Code: 3.61M lines written since Aug 12, 2026 · 12-day streak. Languages, last 30 days: TypeScript 46%, Rust 20%, Swift 14%, Java 7%, Python 4%, Other 10%" />
 <!-- claude-code:end -->
